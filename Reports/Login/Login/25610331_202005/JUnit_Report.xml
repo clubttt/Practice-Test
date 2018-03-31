@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="74" tests="4" failures="0" errors="0">
+   <testsuite name="Login" tests="4" failures="0" errors="0" time="74" timestamp="2561-03-31 20:20:20" hostname="Administrator - SUPHISIT" id="Test Suites/Login/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Desktop\\Practice Test\\Reports\\Login\\Login\\25610331_202005"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Desktop\\Practice Test\\Reports\\Login\\Login\\25610331_202005\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - SUPHISIT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.219.1"/>
+         <property name="sessionId" value="3326bc64fc0c3a1956d18d08f95793ac"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login01" classname="Test Cases/Login/Login01" status="PASSED">
+         <system-out><![CDATA[2561-03-31 20:20:21 - [TEST_CASE][PASSED] - Test Cases/Login/Login01: Test Cases/Login/Login01
+
+2561-03-31 20:20:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-03-31 20:20:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-03-31 20:20:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-03-31 20:20:42 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-03-31 20:20:42 - [TEST_STEP][PASSED] - setText: Text 'suphisit1@gmail.com' is set on object 'Object Repository/Login_Page/Page_/input_EMAIL'
+
+2561-03-31 20:20:43 - [MESSAGE][PASSED] - Text 'suphisit1@gmail.com' is set on object 'Object Repository/Login_Page/Page_/input_EMAIL'
+
+2561-03-31 20:20:43 - [TEST_STEP][PASSED] - setText: Text '0857098359' is set on object 'Object Repository/Login_Page/Page_/input_password'
+
+2561-03-31 20:20:43 - [MESSAGE][PASSED] - Text '0857098359' is set on object 'Object Repository/Login_Page/Page_/input_password'
+
+2561-03-31 20:20:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/Page_/button_' is clicked on
+
+2561-03-31 20:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Page_/button_' is clicked on
+
+2561-03-31 20:20:44 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-03-31 20:20:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login02" classname="Test Cases/Login/Login02" status="PASSED">
+         <system-out><![CDATA[2561-03-31 20:20:45 - [TEST_CASE][PASSED] - Test Cases/Login/Login02: Test Cases/Login/Login02
+
+2561-03-31 20:20:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-03-31 20:20:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-03-31 20:20:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-03-31 20:20:59 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-03-31 20:20:59 - [TEST_STEP][PASSED] - setText: Text 'suphi@gmail.com' is set on object 'Object Repository/Login_Page/Page_/input_EMAIL'
+
+2561-03-31 20:20:59 - [MESSAGE][PASSED] - Text 'suphi@gmail.com' is set on object 'Object Repository/Login_Page/Page_/input_EMAIL'
+
+2561-03-31 20:20:59 - [TEST_STEP][PASSED] - setText: Text '0857098359' is set on object 'Object Repository/Login_Page/Page_/input_password'
+
+2561-03-31 20:20:59 - [MESSAGE][PASSED] - Text '0857098359' is set on object 'Object Repository/Login_Page/Page_/input_password'
+
+2561-03-31 20:20:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/Page_/button_' is clicked on
+
+2561-03-31 20:21:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Page_/button_' is clicked on
+
+2561-03-31 20:21:00 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'กรุณากรอก รหัสสมาชิก หรือ รหัสผ่านให้ถูกต้อง' is present on page 
+
+2561-03-31 20:21:00 - [MESSAGE][PASSED] - Text 'กรุณากรอก รหัสสมาชิก หรือ รหัสผ่านให้ถูกต้อง' is present on page 
+
+2561-03-31 20:21:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-03-31 20:21:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login03" classname="Test Cases/Login/Login03" status="PASSED">
+         <system-out><![CDATA[2561-03-31 20:21:01 - [TEST_CASE][PASSED] - Test Cases/Login/Login03: Test Cases/Login/Login03
+
+2561-03-31 20:21:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-03-31 20:21:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-03-31 20:21:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-03-31 20:21:13 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-03-31 20:21:13 - [TEST_STEP][PASSED] - setText: Text 'suphi@gmail.com' is set on object 'Object Repository/Login_Page/Page_/input_EMAIL'
+
+2561-03-31 20:21:13 - [MESSAGE][PASSED] - Text 'suphi@gmail.com' is set on object 'Object Repository/Login_Page/Page_/input_EMAIL'
+
+2561-03-31 20:21:13 - [TEST_STEP][PASSED] - setText: Text '0857098' is set on object 'Object Repository/Login_Page/Page_/input_password'
+
+2561-03-31 20:21:14 - [MESSAGE][PASSED] - Text '0857098' is set on object 'Object Repository/Login_Page/Page_/input_password'
+
+2561-03-31 20:21:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/Page_/button_' is clicked on
+
+2561-03-31 20:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Page_/button_' is clicked on
+
+2561-03-31 20:21:14 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'กรุณากรอก รหัสสมาชิก หรือ รหัสผ่านให้ถูกต้อง' is present on page 
+
+2561-03-31 20:21:14 - [MESSAGE][PASSED] - Text 'กรุณากรอก รหัสสมาชิก หรือ รหัสผ่านให้ถูกต้อง' is present on page 
+
+2561-03-31 20:21:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-03-31 20:21:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login04" classname="Test Cases/Login/Login04" status="PASSED">
+         <system-out><![CDATA[2561-03-31 20:21:15 - [TEST_CASE][PASSED] - Test Cases/Login/Login04: Test Cases/Login/Login04
+
+2561-03-31 20:21:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-03-31 20:21:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-03-31 20:21:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-03-31 20:21:32 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-03-31 20:21:32 - [TEST_STEP][PASSED] - setText: Text 'phuwadon11@hotmail.com' is set on object 'Object Repository/Login_Page/Page_/input_EMAIL'
+
+2561-03-31 20:21:32 - [MESSAGE][PASSED] - Text 'phuwadon11@hotmail.com' is set on object 'Object Repository/Login_Page/Page_/input_EMAIL'
+
+2561-03-31 20:21:32 - [TEST_STEP][PASSED] - setText: Text '0827975510' is set on object 'Object Repository/Login_Page/Page_/input_password'
+
+2561-03-31 20:21:32 - [MESSAGE][PASSED] - Text '0827975510' is set on object 'Object Repository/Login_Page/Page_/input_password'
+
+2561-03-31 20:21:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_Page/Page_/button_' is clicked on
+
+2561-03-31 20:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Page_/button_' is clicked on
+
+2561-03-31 20:21:34 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'กรุณากรอก รหัสสมาชิก หรือ รหัสผ่านให้ถูกต้อง' is present on page 
+
+2561-03-31 20:21:34 - [MESSAGE][PASSED] - Text 'กรุณากรอก รหัสสมาชิก หรือ รหัสผ่านให้ถูกต้อง' is present on page 
+
+2561-03-31 20:21:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-03-31 20:21:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2561-03-31 20:20:20 - [TEST_SUITE][PASSED] - Login: Test Cases/Login/Login04]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
