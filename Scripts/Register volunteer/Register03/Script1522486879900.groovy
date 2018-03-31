@@ -18,7 +18,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -28,9 +27,9 @@ WebUI.click(findTestObject('Register_Page/a_'))
 
 WebUI.setText(findTestObject('Register_Page/input_EMAIL (1)'), 'suphisit1@gmail.com')
 
-WebUI.setText(findTestObject('Register_Page/input_PASSWORD'), '0857098359')
+WebUI.setText(findTestObject('Register_Page/input_PASSWORD'), '012')
 
-WebUI.setText(findTestObject('Register_Page/input_password_confirmation'), '0857098359')
+WebUI.setText(findTestObject('Register_Page/input_password_confirmation'), '012')
 
 WebUI.uploadFile(findTestObject('Register_Page/Upload File'), 'C:\\Users\\Administrator\\Desktop\\Test.jpg')
 
@@ -82,7 +81,7 @@ WebUI.setText(findTestObject('Register_Page/input_FAX'), '025445687')
 
 WebUI.click(findTestObject('Register_Page/input_submit (1)'))
 
-WebUI.verifyTextPresent('ขอบคุณสำหรับการลงทะเบียนโปรดตรวจสอบที่อีเมลของท่านเพื่อทำการระบุตัวตน', false)
+WebUI.verifyTextPresent('กรุณากรอกรหัสผ่านของท่านอย่างน้อย4ตัว', false)
 
 WebUI.closeBrowser()
 

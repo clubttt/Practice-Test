@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>กรอกข้อมูลทั้งหมด โดยกรอกรหัสผ่านและยืนยันรหัสผ่่าน 3 ตัว</description>
+   <name>Register03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2c5b6a4-238a-40ae-b72d-dd1e5310f62e</testCaseGuid>
+</TestCaseEntity>

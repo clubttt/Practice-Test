@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>กรอกข้อมูลทั้งหมด โดยไม่เลือกใช้รูปภาพ</description>
+   <name>Register05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be9c748a-0b61-4ea6-819c-795175cdd257</testCaseGuid>
+</TestCaseEntity>

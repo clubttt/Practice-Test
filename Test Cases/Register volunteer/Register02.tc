@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>กรอกข้อมูลทั้งหมด โดยกรอกรหัสผ่านไม่เหมือนกับยืนยันรหัสผ่าน</description>
+   <name>Register02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a27d2c0b-bcf2-4275-8d39-758e5aaf56dc</testCaseGuid>
+</TestCaseEntity>

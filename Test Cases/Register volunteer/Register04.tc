@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>กรอกข้อมูลทั้งหมด โดยไม่กรอกรหัสผ่านกับยืนยันรหัสผ่าน</description>
+   <name>Register04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3afa407-dbfa-44ee-8dae-ec6c7cf560a6</testCaseGuid>
+</TestCaseEntity>
