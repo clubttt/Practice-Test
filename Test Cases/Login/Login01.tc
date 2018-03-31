@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>กรอก รหัสสมาชิก และรหัสผ่านให้ถูกต้อง</description>
+   <name>Login01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c361c047-60a3-4f50-8fe2-6bb77087abe1</testCaseGuid>
+</TestCaseEntity>

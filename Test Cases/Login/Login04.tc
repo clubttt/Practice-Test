@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>กรอก รหัสสมาชิก และรหัสผ่านที่ยังไม่เคยลงทะเบียน</description>
+   <name>Login04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eada9fe0-fa35-4437-9acb-1ed856dbb067</testCaseGuid>
+</TestCaseEntity>
