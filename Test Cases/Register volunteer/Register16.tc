@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>กรอกข้อมูลทั้งหมด โดยเลืือกศาสนาเป็น ศาสนาพุทธ</description>
+   <name>Register16</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6fcdf4d-fd39-47ab-9413-891113fc415b</testCaseGuid>
+</TestCaseEntity>
