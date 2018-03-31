@@ -18,16 +18,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-def randomString = CustomKeywords.'generateEmail.genEmail.randomString'("abcdefghijklmnopqrstuvwxty123456789", 10)
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://vivblind.play2pay.me/')
 
 WebUI.click(findTestObject('Register_Page/a_'))
 
-WebUI.setText(findTestObject('Register_Page/input_EMAIL (1)'), ''+randomString+'@gmail.com')
+WebUI.setText(findTestObject('Register_Page/input_EMAIL (1)'), 'suphisit1@gmail.com')
 
 WebUI.setText(findTestObject('Register_Page/input_PASSWORD'), '0857098359')
 
@@ -45,9 +43,9 @@ WebUI.setText(findTestObject('Register_Page/input_LAST_NAME_EN'), 'Khaika')
 
 WebUI.setText(findTestObject('Register_Page/input_BIRTH_DATE'), '13/10/1994')
 
-WebUI.selectOptionByValue(findTestObject('Register_Page/select_'), 'พุทธ', true)
+WebUI.selectOptionByValue(findTestObject('Register_Page/select_'), 'อื่นๆ', true)
 
-WebUI.selectOptionByValue(findTestObject('Register_Page/select__1'), 'ปริญญาตรี', true)
+WebUI.selectOptionByValue(findTestObject('Register_Page/select__1'), 'สูงกว่าปริญญาตรี', true)
 
 WebUI.selectOptionByValue(findTestObject('Register_Page/select__2'), 'อื่นๆ', true)
 
@@ -77,13 +75,13 @@ WebUI.setText(findTestObject('Register_Page/input_ADDRESS_ALL'), '3 หมู่
 
 WebUI.setText(findTestObject('Register_Page/input_PHONE'), '053646789')
 
-WebUI.setText(findTestObject('Register_Page/input_CELL_PHONE'), '0827975510')
+WebUI.setText(findTestObject('Register_Page/input_CELL_PHONE'), '')
 
 WebUI.setText(findTestObject('Register_Page/input_FAX'), '025445687')
 
 WebUI.click(findTestObject('Register_Page/input_submit (1)'))
 
-WebUI.verifyTextPresent('ขอบคุณสำหรับการลงทะเบียนโปรดตรวจสอบที่อีเมลของท่านเพื่อทำการระบุตัวตน', false)
+WebUI.verifyTextPresent('กรุณากรอกเบอร์มือถือ', false)
 
 WebUI.closeBrowser()
 
