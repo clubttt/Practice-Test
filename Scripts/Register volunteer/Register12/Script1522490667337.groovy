@@ -27,15 +27,15 @@ WebUI.click(findTestObject('Register_Page/a_'))
 
 WebUI.setText(findTestObject('Register_Page/input_EMAIL (1)'), 'suphisit1@gmail.com')
 
-WebUI.setText(findTestObject('Register_Page/input_PASSWORD'), '123/*-@')
+WebUI.setText(findTestObject('Register_Page/input_PASSWORD'), '0857098359')
 
-WebUI.setText(findTestObject('Register_Page/input_password_confirmation'), '123/*-@')
+WebUI.setText(findTestObject('Register_Page/input_password_confirmation'), '0857098359')
 
 WebUI.uploadFile(findTestObject('Register_Page/Upload File'), 'C:\\Users\\Administrator\\Desktop\\Test.jpg')
 
-WebUI.setText(findTestObject('Register_Page/input_FIRST_NAME_TH'), 'ศุภิสิทธิ์')
+WebUI.setText(findTestObject('Register_Page/input_FIRST_NAME_TH'), '123/*-@')
 
-WebUI.setText(findTestObject('Register_Page/input_LAST_NAME_TH'), 'ไข่กา')
+WebUI.setText(findTestObject('Register_Page/input_LAST_NAME_TH'), '123/*-@')
 
 WebUI.setText(findTestObject('Register_Page/input_FIRST_NAME_EN'), 'Suphisit')
 

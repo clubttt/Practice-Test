@@ -20,14 +20,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def randomString = CustomKeywords.'generateEmail.genEmail.randomString'("abcdefghijklmnopqrstuvwxty123456789", 10)
+def randomString = CustomKeywords.'generateEmail.genEmail.randomString'('abcdefghijklmnopqrstuvwxty123456789', 10)
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://vivblind.play2pay.me/')
 
 WebUI.click(findTestObject('Register_Page/a_'))
 
-WebUI.setText(findTestObject('Register_Page/input_EMAIL (1)'), ''+randomString+'@gmail.com')
+WebUI.setText(findTestObject('Register_Page/input_EMAIL (1)'), ('' + randomString) + '@gmail.com')
 
 WebUI.setText(findTestObject('Register_Page/input_PASSWORD'), '0857098359')
 
