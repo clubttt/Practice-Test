@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register" time="295" tests="6" failures="2" errors="0">
+   <testsuite name="Register" tests="6" failures="2" errors="0" time="295" timestamp="2561-04-03 13:29:09" hostname="Administrator - SUPHISIT" id="Test Suites/RegisterV/Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Desktop\\Practice Test\\Reports\\RegisterV\\Register\\25610403_132903"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Desktop\\Practice Test\\Reports\\RegisterV\\Register\\25610403_132903\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - SUPHISIT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.219.1"/>
+         <property name="sessionId" value="f67839f35237af910db0013fe2f80aa0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Register volunteer/Register01" classname="Test Cases/Register volunteer/Register01" status="PASSED">
+         <system-out><![CDATA[2561-04-03 13:29:09 - [TEST_CASE][PASSED] - Test Cases/Register volunteer/Register01: Test Cases/Register volunteer/Register01
+
+2561-04-03 13:29:10 - [TEST_STEP][PASSED] - Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString("abcdefghijklmnopqrstuvwxty123456789", 10): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:29:10 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:29:10 - [TEST_STEP][PASSED] - Statement - randomNameTH = CustomKeywords.generateEmail.genEmail.randomString("กขคฆงจฉชซฐฏฤๆไำพะัีรึภถุูฃฅบยญ๊รธะฑพฟหฆกฏดโฌเ็้่าษสศวฦฝฬใฒฒทื์ิฮอแปผ", 12): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:29:10 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:29:10 - [TEST_STEP][PASSED] - Statement - randomLastNameTH = CustomKeywords.generateEmail.genEmail.randomString("กขคฆงจฉชซฐฏฤๆไำพะัีรึภถุูฃฅบยญ๊รธะฑพฟหฆกฏดโฌเ็้่าษสศวฦฝฬใฒฒทื์ิฮอแปผ", 12): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:29:10 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:29:10 - [TEST_STEP][PASSED] - Statement - randomR = CustomKeywords.random.randomReligion.randomRRR(): random.randomReligion.randomRRR is PASSED
+
+2561-04-03 13:29:10 - [MESSAGE][PASSED] - random.randomReligion.randomRRR is PASSED
+
+2561-04-03 13:29:10 - [TEST_STEP][PASSED] - Statement - radomD = CustomKeywords.random.randomDegree.randomDeg(): random.randomDegree.randomDeg is PASSED
+
+2561-04-03 13:29:10 - [MESSAGE][PASSED] - random.randomDegree.randomDeg is PASSED
+
+2561-04-03 13:29:10 - [TEST_STEP][PASSED] - Statement - randomJ = CustomKeywords.random.randomJobs.randomJOb(): random.randomJobs.randomJOb is PASSED
+
+2561-04-03 13:29:10 - [MESSAGE][PASSED] - random.randomJobs.randomJOb is PASSED
+
+2561-04-03 13:29:10 - [TEST_STEP][PASSED] - Statement - randomS = CustomKeywords.random.randomStatus.randomSta(): random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:29:10 - [MESSAGE][PASSED] - random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:29:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-04-03 13:29:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-04-03 13:29:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-04-03 13:29:41 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-04-03 13:29:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Register_Page/a_' is clicked on
+
+2561-04-03 13:29:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Page/a_' is clicked on
+
+2561-04-03 13:29:42 - [TEST_STEP][PASSED] - setText: Text 'ygd9jqb3te@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL (1)'
+
+2561-04-03 13:29:42 - [MESSAGE][PASSED] - Text 'ygd9jqb3te@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL (1)'
+
+2561-04-03 13:29:42 - [TEST_STEP][PASSED] - setText: Text '0857098359' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2561-04-03 13:29:43 - [MESSAGE][PASSED] - Text '0857098359' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2561-04-03 13:29:43 - [TEST_STEP][PASSED] - setText: Text '0857098359' is set on object 'Object Repository/Register_Page/input_password_confirmation'
+
+2561-04-03 13:29:43 - [MESSAGE][PASSED] - Text '0857098359' is set on object 'Object Repository/Register_Page/input_password_confirmation'
+
+2561-04-03 13:29:43 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\Administrator\Desktop\Test.jpg' sent to object: 'Object Repository/Register_Page/Upload File'
+
+2561-04-03 13:29:43 - [MESSAGE][PASSED] - File 'C:\Users\Administrator\Desktop\Test.jpg' sent to object: 'Object Repository/Register_Page/Upload File'
+
+2561-04-03 13:29:43 - [TEST_STEP][PASSED] - setText: Text 'ทชฟฝธฮศ็ซอซี' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2561-04-03 13:29:43 - [MESSAGE][PASSED] - Text 'ทชฟฝธฮศ็ซอซี' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2561-04-03 13:29:43 - [TEST_STEP][PASSED] - setText: Text '๊พฆฌดีฑฏะภฒฦ' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2561-04-03 13:29:43 - [MESSAGE][PASSED] - Text '๊พฆฌดีฑฏะภฒฦ' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2561-04-03 13:29:43 - [TEST_STEP][PASSED] - setText: Text 'Suphisit' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2561-04-03 13:29:43 - [MESSAGE][PASSED] - Text 'Suphisit' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2561-04-03 13:29:43 - [TEST_STEP][PASSED] - setText: Text 'Khaika' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2561-04-03 13:29:44 - [MESSAGE][PASSED] - Text 'Khaika' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2561-04-03 13:29:44 - [TEST_STEP][PASSED] - setText: Text '13/10/1994' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2561-04-03 13:29:44 - [MESSAGE][PASSED] - Text '13/10/1994' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2561-04-03 13:29:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'พุทธ' are selected in object 'Object Repository/Register_Page/select_'  using regular expression
+
+2561-04-03 13:29:44 - [MESSAGE][PASSED] - All options with value 'พุทธ' are selected in object 'Object Repository/Register_Page/select_'  using regular expression
+
+2561-04-03 13:29:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Register_Page/select__1'  using regular expression
+
+2561-04-03 13:29:44 - [MESSAGE][PASSED] - All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Register_Page/select__1'  using regular expression
+
+2561-04-03 13:29:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'อื่นๆ' are selected in object 'Object Repository/Register_Page/select__2'  using regular expression
+
+2561-04-03 13:29:45 - [MESSAGE][PASSED] - All options with value 'อื่นๆ' are selected in object 'Object Repository/Register_Page/select__2'  using regular expression
+
+2561-04-03 13:29:45 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2561-04-03 13:29:45 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2561-04-03 13:29:45 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2561-04-03 13:29:45 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2561-04-03 13:29:45 - [TEST_STEP][PASSED] - setText: Text 'พหลโยธิน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2561-04-03 13:29:45 - [MESSAGE][PASSED] - Text 'พหลโยธิน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2561-04-03 13:29:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:29:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:29:47 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '45' are selected in object 'Object Repository/Register_Page/ADDRESS_PROVINCE' 
+
+2561-04-03 13:29:47 - [MESSAGE][PASSED] - All options with value '45' are selected in object 'Object Repository/Register_Page/ADDRESS_PROVINCE' 
+
+2561-04-03 13:29:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:29:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:29:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '665' are selected in object 'Object Repository/Register_Page/ADDRESS_DISTRICT' 
+
+2561-04-03 13:29:50 - [MESSAGE][PASSED] - All options with value '665' are selected in object 'Object Repository/Register_Page/ADDRESS_DISTRICT' 
+
+2561-04-03 13:29:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:29:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:29:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '14726' are selected in object 'Object Repository/Register_Page/ADDRESS_SUBDISTRICT' 
+
+2561-04-03 13:29:52 - [MESSAGE][PASSED] - All options with value '14726' are selected in object 'Object Repository/Register_Page/ADDRESS_SUBDISTRICT' 
+
+2561-04-03 13:29:52 - [TEST_STEP][PASSED] - setText: Text '57130' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2561-04-03 13:29:52 - [MESSAGE][PASSED] - Text '57130' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2561-04-03 13:29:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'กำลังศึกษา' are selected in object 'Object Repository/Register_Page/select__3'  using regular expression
+
+2561-04-03 13:29:52 - [MESSAGE][PASSED] - All options with value 'กำลังศึกษา' are selected in object 'Object Repository/Register_Page/select__3'  using regular expression
+
+2561-04-03 13:29:52 - [TEST_STEP][PASSED] - setText: Text '3 หมู่ที่ 10 ต.โป่งผา อ.แม่สาย จ.เชียงราย' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2561-04-03 13:29:52 - [MESSAGE][PASSED] - Text '3 หมู่ที่ 10 ต.โป่งผา อ.แม่สาย จ.เชียงราย' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2561-04-03 13:29:52 - [TEST_STEP][PASSED] - setText: Text '053646789' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2561-04-03 13:29:52 - [MESSAGE][PASSED] - Text '053646789' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2561-04-03 13:29:52 - [TEST_STEP][PASSED] - setText: Text '0827975510' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2561-04-03 13:29:53 - [MESSAGE][PASSED] - Text '0827975510' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2561-04-03 13:29:53 - [TEST_STEP][PASSED] - setText: Text '025445687' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2561-04-03 13:29:53 - [MESSAGE][PASSED] - Text '025445687' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2561-04-03 13:29:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Register_Page/input_submit (1)' is clicked on
+
+2561-04-03 13:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Page/input_submit (1)' is clicked on
+
+2561-04-03 13:29:58 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'ขอบคุณสำหรับการลงทะเบียนโปรดตรวจสอบที่อีเมลของท่านเพื่อทำการระบุตัวตน' is present on page 
+
+2561-04-03 13:29:58 - [MESSAGE][PASSED] - Text 'ขอบคุณสำหรับการลงทะเบียนโปรดตรวจสอบที่อีเมลของท่านเพื่อทำการระบุตัวตน' is present on page 
+
+2561-04-03 13:29:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-04-03 13:29:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register volunteer/Register02" classname="Test Cases/Register volunteer/Register02" status="PASSED">
+         <system-out><![CDATA[2561-04-03 13:29:58 - [TEST_CASE][PASSED] - Test Cases/Register volunteer/Register02: Test Cases/Register volunteer/Register02
+
+2561-04-03 13:29:59 - [TEST_STEP][PASSED] - Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString("abcdefghijklmnopqrstuvwxty123456789", 10): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:29:59 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:29:59 - [TEST_STEP][PASSED] - Statement - randomP = CustomKeywords.randomPass.randomPass.randomString("abcdefghijklmnopqrstuvwxty123456789", 10): randomPass.randomPass.randomString is PASSED
+
+2561-04-03 13:29:59 - [MESSAGE][PASSED] - randomPass.randomPass.randomString is PASSED
+
+2561-04-03 13:29:59 - [TEST_STEP][PASSED] - Statement - randomPa = CustomKeywords.randomPass.randomPass.randomString("abcdefghijklmnopqrstuvwxty123456789", 10): randomPass.randomPass.randomString is PASSED
+
+2561-04-03 13:29:59 - [MESSAGE][PASSED] - randomPass.randomPass.randomString is PASSED
+
+2561-04-03 13:29:59 - [TEST_STEP][PASSED] - Statement - randomR = CustomKeywords.random.randomReligion.randomRRR(): random.randomReligion.randomRRR is PASSED
+
+2561-04-03 13:29:59 - [MESSAGE][PASSED] - random.randomReligion.randomRRR is PASSED
+
+2561-04-03 13:29:59 - [TEST_STEP][PASSED] - Statement - radomD = CustomKeywords.random.randomDegree.randomDeg(): random.randomDegree.randomDeg is PASSED
+
+2561-04-03 13:29:59 - [MESSAGE][PASSED] - random.randomDegree.randomDeg is PASSED
+
+2561-04-03 13:29:59 - [TEST_STEP][PASSED] - Statement - randomJ = CustomKeywords.random.randomJobs.randomJOb(): random.randomJobs.randomJOb is PASSED
+
+2561-04-03 13:29:59 - [MESSAGE][PASSED] - random.randomJobs.randomJOb is PASSED
+
+2561-04-03 13:29:59 - [TEST_STEP][PASSED] - Statement - randomS = CustomKeywords.random.randomStatus.randomSta(): random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:29:59 - [MESSAGE][PASSED] - random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:29:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-04-03 13:30:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-04-03 13:30:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-04-03 13:30:25 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-04-03 13:30:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Register_Page/a_' is clicked on
+
+2561-04-03 13:30:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Page/a_' is clicked on
+
+2561-04-03 13:30:27 - [TEST_STEP][PASSED] - setText: Text 'ijyx7twgyf@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL (1)'
+
+2561-04-03 13:30:27 - [MESSAGE][PASSED] - Text 'ijyx7twgyf@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL (1)'
+
+2561-04-03 13:30:27 - [TEST_STEP][PASSED] - setText: Text 'b24qgwe73t' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2561-04-03 13:30:27 - [MESSAGE][PASSED] - Text 'b24qgwe73t' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2561-04-03 13:30:27 - [TEST_STEP][PASSED] - setText: Text 'k2jnvkcsxw' is set on object 'Object Repository/Register_Page/input_password_confirmation'
+
+2561-04-03 13:30:27 - [MESSAGE][PASSED] - Text 'k2jnvkcsxw' is set on object 'Object Repository/Register_Page/input_password_confirmation'
+
+2561-04-03 13:30:27 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\Administrator\Desktop\Test.jpg' sent to object: 'Object Repository/Register_Page/Upload File'
+
+2561-04-03 13:30:27 - [MESSAGE][PASSED] - File 'C:\Users\Administrator\Desktop\Test.jpg' sent to object: 'Object Repository/Register_Page/Upload File'
+
+2561-04-03 13:30:27 - [TEST_STEP][PASSED] - setText: Text 'ศุภิสิทธิ์ ' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2561-04-03 13:30:27 - [MESSAGE][PASSED] - Text 'ศุภิสิทธิ์ ' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2561-04-03 13:30:27 - [TEST_STEP][PASSED] - setText: Text 'ไข่กา' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2561-04-03 13:30:28 - [MESSAGE][PASSED] - Text 'ไข่กา' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2561-04-03 13:30:28 - [TEST_STEP][PASSED] - setText: Text 'Suphisit' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2561-04-03 13:30:28 - [MESSAGE][PASSED] - Text 'Suphisit' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2561-04-03 13:30:28 - [TEST_STEP][PASSED] - setText: Text 'Khaika' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2561-04-03 13:30:28 - [MESSAGE][PASSED] - Text 'Khaika' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2561-04-03 13:30:28 - [TEST_STEP][PASSED] - setText: Text '13/10/1994' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2561-04-03 13:30:28 - [MESSAGE][PASSED] - Text '13/10/1994' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2561-04-03 13:30:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'อื่นๆ' are selected in object 'Object Repository/Register_Page/select_'  using regular expression
+
+2561-04-03 13:30:28 - [MESSAGE][PASSED] - All options with value 'อื่นๆ' are selected in object 'Object Repository/Register_Page/select_'  using regular expression
+
+2561-04-03 13:30:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'สูงกว่าปริญญาตรี' are selected in object 'Object Repository/Register_Page/select__1'  using regular expression
+
+2561-04-03 13:30:29 - [MESSAGE][PASSED] - All options with value 'สูงกว่าปริญญาตรี' are selected in object 'Object Repository/Register_Page/select__1'  using regular expression
+
+2561-04-03 13:30:29 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'รับราชการ' are selected in object 'Object Repository/Register_Page/select__2'  using regular expression
+
+2561-04-03 13:30:29 - [MESSAGE][PASSED] - All options with value 'รับราชการ' are selected in object 'Object Repository/Register_Page/select__2'  using regular expression
+
+2561-04-03 13:30:29 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2561-04-03 13:30:29 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2561-04-03 13:30:29 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2561-04-03 13:30:29 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2561-04-03 13:30:29 - [TEST_STEP][PASSED] - setText: Text 'พหลโยธิน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2561-04-03 13:30:29 - [MESSAGE][PASSED] - Text 'พหลโยธิน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2561-04-03 13:30:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:30:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:30:31 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '45' are selected in object 'Object Repository/Register_Page/ADDRESS_PROVINCE' 
+
+2561-04-03 13:30:31 - [MESSAGE][PASSED] - All options with value '45' are selected in object 'Object Repository/Register_Page/ADDRESS_PROVINCE' 
+
+2561-04-03 13:30:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:30:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:30:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '665' are selected in object 'Object Repository/Register_Page/ADDRESS_DISTRICT' 
+
+2561-04-03 13:30:33 - [MESSAGE][PASSED] - All options with value '665' are selected in object 'Object Repository/Register_Page/ADDRESS_DISTRICT' 
+
+2561-04-03 13:30:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:30:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:30:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '14726' are selected in object 'Object Repository/Register_Page/ADDRESS_SUBDISTRICT' 
+
+2561-04-03 13:30:36 - [MESSAGE][PASSED] - All options with value '14726' are selected in object 'Object Repository/Register_Page/ADDRESS_SUBDISTRICT' 
+
+2561-04-03 13:30:36 - [TEST_STEP][PASSED] - setText: Text '57130' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2561-04-03 13:30:36 - [MESSAGE][PASSED] - Text '57130' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2561-04-03 13:30:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'กำลังทำงาน' are selected in object 'Object Repository/Register_Page/select__3'  using regular expression
+
+2561-04-03 13:30:36 - [MESSAGE][PASSED] - All options with value 'กำลังทำงาน' are selected in object 'Object Repository/Register_Page/select__3'  using regular expression
+
+2561-04-03 13:30:36 - [TEST_STEP][PASSED] - setText: Text '3 หมู่ที่ 10 ต.โป่งผา อ.แม่สาย จ.เชียงราย' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2561-04-03 13:30:36 - [MESSAGE][PASSED] - Text '3 หมู่ที่ 10 ต.โป่งผา อ.แม่สาย จ.เชียงราย' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2561-04-03 13:30:36 - [TEST_STEP][PASSED] - setText: Text '053646789' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2561-04-03 13:30:36 - [MESSAGE][PASSED] - Text '053646789' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2561-04-03 13:30:36 - [TEST_STEP][PASSED] - setText: Text '0827975510' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2561-04-03 13:30:37 - [MESSAGE][PASSED] - Text '0827975510' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2561-04-03 13:30:37 - [TEST_STEP][PASSED] - setText: Text '025445687' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2561-04-03 13:30:37 - [MESSAGE][PASSED] - Text '025445687' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2561-04-03 13:30:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Register_Page/input_submit (1)' is clicked on
+
+2561-04-03 13:30:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Page/input_submit (1)' is clicked on
+
+2561-04-03 13:30:38 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'รหัสผ่านของท่านไม่ตรงกัน' is present on page 
+
+2561-04-03 13:30:38 - [MESSAGE][PASSED] - Text 'รหัสผ่านของท่านไม่ตรงกัน' is present on page 
+
+2561-04-03 13:30:38 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-04-03 13:30:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register volunteer/Register03" classname="Test Cases/Register volunteer/Register03" status="PASSED">
+         <system-out><![CDATA[2561-04-03 13:30:39 - [TEST_CASE][PASSED] - Test Cases/Register volunteer/Register03: Test Cases/Register volunteer/Register03
+
+2561-04-03 13:30:39 - [TEST_STEP][PASSED] - Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString("abcdefghijklmnopqrstuvwxty123456789", 10): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:30:39 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:30:39 - [TEST_STEP][PASSED] - Statement - randomPL = CustomKeywords.randomPass.randomPass.randomString("abcdefghijklmnopqrstuvwxty123456789", 3): randomPass.randomPass.randomString is PASSED
+
+2561-04-03 13:30:39 - [MESSAGE][PASSED] - randomPass.randomPass.randomString is PASSED
+
+2561-04-03 13:30:39 - [TEST_STEP][PASSED] - Statement - randomR = CustomKeywords.random.randomReligion.randomRRR(): random.randomReligion.randomRRR is PASSED
+
+2561-04-03 13:30:39 - [MESSAGE][PASSED] - random.randomReligion.randomRRR is PASSED
+
+2561-04-03 13:30:39 - [TEST_STEP][PASSED] - Statement - radomD = CustomKeywords.random.randomDegree.randomDeg(): random.randomDegree.randomDeg is PASSED
+
+2561-04-03 13:30:39 - [MESSAGE][PASSED] - random.randomDegree.randomDeg is PASSED
+
+2561-04-03 13:30:39 - [TEST_STEP][PASSED] - Statement - randomJ = CustomKeywords.random.randomJobs.randomJOb(): random.randomJobs.randomJOb is PASSED
+
+2561-04-03 13:30:39 - [MESSAGE][PASSED] - random.randomJobs.randomJOb is PASSED
+
+2561-04-03 13:30:39 - [TEST_STEP][PASSED] - Statement - randomS = CustomKeywords.random.randomStatus.randomSta(): random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:30:39 - [MESSAGE][PASSED] - random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:30:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-04-03 13:30:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-04-03 13:30:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-04-03 13:31:06 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-04-03 13:31:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Register_Page/a_' is clicked on
+
+2561-04-03 13:31:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Page/a_' is clicked on
+
+2561-04-03 13:31:12 - [TEST_STEP][PASSED] - setText: Text 'lt9ne8gpct@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL (1)'
+
+2561-04-03 13:31:12 - [MESSAGE][PASSED] - Text 'lt9ne8gpct@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL (1)'
+
+2561-04-03 13:31:12 - [TEST_STEP][PASSED] - setText: Text 'khg' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2561-04-03 13:31:12 - [MESSAGE][PASSED] - Text 'khg' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2561-04-03 13:31:12 - [TEST_STEP][PASSED] - setText: Text 'khg' is set on object 'Object Repository/Register_Page/input_password_confirmation'
+
+2561-04-03 13:31:12 - [MESSAGE][PASSED] - Text 'khg' is set on object 'Object Repository/Register_Page/input_password_confirmation'
+
+2561-04-03 13:31:12 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\Administrator\Desktop\Test.jpg' sent to object: 'Object Repository/Register_Page/Upload File'
+
+2561-04-03 13:31:12 - [MESSAGE][PASSED] - File 'C:\Users\Administrator\Desktop\Test.jpg' sent to object: 'Object Repository/Register_Page/Upload File'
+
+2561-04-03 13:31:12 - [TEST_STEP][PASSED] - setText: Text 'ศุภิสิทธิ์ ' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2561-04-03 13:31:12 - [MESSAGE][PASSED] - Text 'ศุภิสิทธิ์ ' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2561-04-03 13:31:12 - [TEST_STEP][PASSED] - setText: Text 'ไข่กา' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2561-04-03 13:31:13 - [MESSAGE][PASSED] - Text 'ไข่กา' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2561-04-03 13:31:13 - [TEST_STEP][PASSED] - setText: Text 'Suphisit' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2561-04-03 13:31:13 - [MESSAGE][PASSED] - Text 'Suphisit' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2561-04-03 13:31:13 - [TEST_STEP][PASSED] - setText: Text 'Khaika' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2561-04-03 13:31:13 - [MESSAGE][PASSED] - Text 'Khaika' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2561-04-03 13:31:13 - [TEST_STEP][PASSED] - setText: Text '13/10/1994' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2561-04-03 13:31:13 - [MESSAGE][PASSED] - Text '13/10/1994' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2561-04-03 13:31:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'คริส' are selected in object 'Object Repository/Register_Page/select_'  using regular expression
+
+2561-04-03 13:31:13 - [MESSAGE][PASSED] - All options with value 'คริส' are selected in object 'Object Repository/Register_Page/select_'  using regular expression
+
+2561-04-03 13:31:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Register_Page/select__1'  using regular expression
+
+2561-04-03 13:31:14 - [MESSAGE][PASSED] - All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Register_Page/select__1'  using regular expression
+
+2561-04-03 13:31:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'อื่นๆ' are selected in object 'Object Repository/Register_Page/select__2'  using regular expression
+
+2561-04-03 13:31:14 - [MESSAGE][PASSED] - All options with value 'อื่นๆ' are selected in object 'Object Repository/Register_Page/select__2'  using regular expression
+
+2561-04-03 13:31:14 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2561-04-03 13:31:14 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2561-04-03 13:31:14 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2561-04-03 13:31:14 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2561-04-03 13:31:14 - [TEST_STEP][PASSED] - setText: Text 'พหลโยธิน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2561-04-03 13:31:14 - [MESSAGE][PASSED] - Text 'พหลโยธิน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2561-04-03 13:31:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:31:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:31:16 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '45' are selected in object 'Object Repository/Register_Page/ADDRESS_PROVINCE' 
+
+2561-04-03 13:31:17 - [MESSAGE][PASSED] - All options with value '45' are selected in object 'Object Repository/Register_Page/ADDRESS_PROVINCE' 
+
+2561-04-03 13:31:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:31:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:31:19 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '665' are selected in object 'Object Repository/Register_Page/ADDRESS_DISTRICT' 
+
+2561-04-03 13:31:19 - [MESSAGE][PASSED] - All options with value '665' are selected in object 'Object Repository/Register_Page/ADDRESS_DISTRICT' 
+
+2561-04-03 13:31:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:31:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:31:21 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '14726' are selected in object 'Object Repository/Register_Page/ADDRESS_SUBDISTRICT' 
+
+2561-04-03 13:31:21 - [MESSAGE][PASSED] - All options with value '14726' are selected in object 'Object Repository/Register_Page/ADDRESS_SUBDISTRICT' 
+
+2561-04-03 13:31:21 - [TEST_STEP][PASSED] - setText: Text '57130' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2561-04-03 13:31:21 - [MESSAGE][PASSED] - Text '57130' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2561-04-03 13:31:21 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'กำลังทำงาน' are selected in object 'Object Repository/Register_Page/select__3'  using regular expression
+
+2561-04-03 13:31:21 - [MESSAGE][PASSED] - All options with value 'กำลังทำงาน' are selected in object 'Object Repository/Register_Page/select__3'  using regular expression
+
+2561-04-03 13:31:21 - [TEST_STEP][PASSED] - setText: Text '3 หมู่ที่ 10 ต.โป่งผา อ.แม่สาย จ.เชียงราย' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2561-04-03 13:31:21 - [MESSAGE][PASSED] - Text '3 หมู่ที่ 10 ต.โป่งผา อ.แม่สาย จ.เชียงราย' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2561-04-03 13:31:21 - [TEST_STEP][PASSED] - setText: Text '053646789' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2561-04-03 13:31:21 - [MESSAGE][PASSED] - Text '053646789' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2561-04-03 13:31:21 - [TEST_STEP][PASSED] - setText: Text '0827975510' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2561-04-03 13:31:22 - [MESSAGE][PASSED] - Text '0827975510' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2561-04-03 13:31:22 - [TEST_STEP][PASSED] - setText: Text '025445687' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2561-04-03 13:31:22 - [MESSAGE][PASSED] - Text '025445687' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2561-04-03 13:31:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Register_Page/input_submit (1)' is clicked on
+
+2561-04-03 13:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Page/input_submit (1)' is clicked on
+
+2561-04-03 13:31:23 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'กรุณากรอกรหัสผ่านของท่านอย่างน้อย4ตัว' is present on page 
+
+2561-04-03 13:31:23 - [MESSAGE][PASSED] - Text 'กรุณากรอกรหัสผ่านของท่านอย่างน้อย4ตัว' is present on page 
+
+2561-04-03 13:31:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-04-03 13:31:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register volunteer/Register04" classname="Test Cases/Register volunteer/Register04" status="PASSED">
+         <system-out><![CDATA[2561-04-03 13:31:24 - [TEST_CASE][PASSED] - Test Cases/Register volunteer/Register04: Test Cases/Register volunteer/Register04
+
+2561-04-03 13:31:24 - [TEST_STEP][PASSED] - Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString("abcdefghijklmnopqrstuvwxty123456789", 10): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:31:24 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:31:24 - [TEST_STEP][PASSED] - Statement - randomNameTH = CustomKeywords.generateEmail.genEmail.randomString("กขคฆงจฉชซฐฏฤๆไำพะัีรึภถุูฃฅบยญ๊รธะฑพฟหฆกฏดโฌเ็้่าษสศวฦฝฬใฒฒทื์ิฮอแปผ", 12): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:31:24 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:31:24 - [TEST_STEP][PASSED] - Statement - randomLastNameTH = CustomKeywords.generateEmail.genEmail.randomString("กขคฆงจฉชซฐฏฤๆไำพะัีรึภถุูฃฅบยญ๊รธะฑพฟหฆกฏดโฌเ็้่าษสศวฦฝฬใฒฒทื์ิฮอแปผ", 12): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:31:24 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:31:24 - [TEST_STEP][PASSED] - Statement - randomR = CustomKeywords.random.randomReligion.randomRRR(): random.randomReligion.randomRRR is PASSED
+
+2561-04-03 13:31:24 - [MESSAGE][PASSED] - random.randomReligion.randomRRR is PASSED
+
+2561-04-03 13:31:24 - [TEST_STEP][PASSED] - Statement - radomD = CustomKeywords.random.randomDegree.randomDeg(): random.randomDegree.randomDeg is PASSED
+
+2561-04-03 13:31:24 - [MESSAGE][PASSED] - random.randomDegree.randomDeg is PASSED
+
+2561-04-03 13:31:24 - [TEST_STEP][PASSED] - Statement - randomJ = CustomKeywords.random.randomJobs.randomJOb(): random.randomJobs.randomJOb is PASSED
+
+2561-04-03 13:31:24 - [MESSAGE][PASSED] - random.randomJobs.randomJOb is PASSED
+
+2561-04-03 13:31:24 - [TEST_STEP][PASSED] - Statement - randomS = CustomKeywords.random.randomStatus.randomSta(): random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:31:24 - [MESSAGE][PASSED] - random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:31:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-04-03 13:31:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-04-03 13:31:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-04-03 13:31:51 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-04-03 13:31:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Register_Page/a_' is clicked on
+
+2561-04-03 13:31:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Page/a_' is clicked on
+
+2561-04-03 13:31:52 - [TEST_STEP][PASSED] - setText: Text 'p24n99dlo6@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL (1)'
+
+2561-04-03 13:31:52 - [MESSAGE][PASSED] - Text 'p24n99dlo6@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL (1)'
+
+2561-04-03 13:31:52 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2561-04-03 13:31:52 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2561-04-03 13:31:52 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Register_Page/input_password_confirmation'
+
+2561-04-03 13:31:52 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register_Page/input_password_confirmation'
+
+2561-04-03 13:31:52 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\Administrator\Desktop\Test.jpg' sent to object: 'Object Repository/Register_Page/Upload File'
+
+2561-04-03 13:31:52 - [MESSAGE][PASSED] - File 'C:\Users\Administrator\Desktop\Test.jpg' sent to object: 'Object Repository/Register_Page/Upload File'
+
+2561-04-03 13:31:52 - [TEST_STEP][PASSED] - setText: Text 'ศุภิสิทธิ์ ' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2561-04-03 13:31:52 - [MESSAGE][PASSED] - Text 'ศุภิสิทธิ์ ' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2561-04-03 13:31:52 - [TEST_STEP][PASSED] - setText: Text 'ไข่กา' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2561-04-03 13:31:53 - [MESSAGE][PASSED] - Text 'ไข่กา' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2561-04-03 13:31:53 - [TEST_STEP][PASSED] - setText: Text 'Suphisit' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2561-04-03 13:31:53 - [MESSAGE][PASSED] - Text 'Suphisit' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2561-04-03 13:31:53 - [TEST_STEP][PASSED] - setText: Text 'Khaika' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2561-04-03 13:31:53 - [MESSAGE][PASSED] - Text 'Khaika' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2561-04-03 13:31:53 - [TEST_STEP][PASSED] - setText: Text '13/10/1994' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2561-04-03 13:31:53 - [MESSAGE][PASSED] - Text '13/10/1994' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2561-04-03 13:31:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'พุทธ' are selected in object 'Object Repository/Register_Page/select_'  using regular expression
+
+2561-04-03 13:31:53 - [MESSAGE][PASSED] - All options with value 'พุทธ' are selected in object 'Object Repository/Register_Page/select_'  using regular expression
+
+2561-04-03 13:31:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Register_Page/select__1'  using regular expression
+
+2561-04-03 13:31:53 - [MESSAGE][PASSED] - All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Register_Page/select__1'  using regular expression
+
+2561-04-03 13:31:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'อื่นๆ' are selected in object 'Object Repository/Register_Page/select__2'  using regular expression
+
+2561-04-03 13:31:54 - [MESSAGE][PASSED] - All options with value 'อื่นๆ' are selected in object 'Object Repository/Register_Page/select__2'  using regular expression
+
+2561-04-03 13:31:54 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2561-04-03 13:31:54 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2561-04-03 13:31:54 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2561-04-03 13:31:54 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2561-04-03 13:31:54 - [TEST_STEP][PASSED] - setText: Text 'พหลโยธิน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2561-04-03 13:31:54 - [MESSAGE][PASSED] - Text 'พหลโยธิน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2561-04-03 13:31:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:31:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:31:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '45' are selected in object 'Object Repository/Register_Page/ADDRESS_PROVINCE' 
+
+2561-04-03 13:31:56 - [MESSAGE][PASSED] - All options with value '45' are selected in object 'Object Repository/Register_Page/ADDRESS_PROVINCE' 
+
+2561-04-03 13:31:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:31:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:31:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '665' are selected in object 'Object Repository/Register_Page/ADDRESS_DISTRICT' 
+
+2561-04-03 13:31:58 - [MESSAGE][PASSED] - All options with value '665' are selected in object 'Object Repository/Register_Page/ADDRESS_DISTRICT' 
+
+2561-04-03 13:31:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:32:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:32:00 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '14726' are selected in object 'Object Repository/Register_Page/ADDRESS_SUBDISTRICT' 
+
+2561-04-03 13:32:00 - [MESSAGE][PASSED] - All options with value '14726' are selected in object 'Object Repository/Register_Page/ADDRESS_SUBDISTRICT' 
+
+2561-04-03 13:32:00 - [TEST_STEP][PASSED] - setText: Text '57130' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2561-04-03 13:32:00 - [MESSAGE][PASSED] - Text '57130' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2561-04-03 13:32:00 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'กำลังทำงาน' are selected in object 'Object Repository/Register_Page/select__3'  using regular expression
+
+2561-04-03 13:32:01 - [MESSAGE][PASSED] - All options with value 'กำลังทำงาน' are selected in object 'Object Repository/Register_Page/select__3'  using regular expression
+
+2561-04-03 13:32:01 - [TEST_STEP][PASSED] - setText: Text '3 หมู่ที่ 10 ต.โป่งผา อ.แม่สาย จ.เชียงราย' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2561-04-03 13:32:01 - [MESSAGE][PASSED] - Text '3 หมู่ที่ 10 ต.โป่งผา อ.แม่สาย จ.เชียงราย' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2561-04-03 13:32:01 - [TEST_STEP][PASSED] - setText: Text '053646789' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2561-04-03 13:32:01 - [MESSAGE][PASSED] - Text '053646789' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2561-04-03 13:32:01 - [TEST_STEP][PASSED] - setText: Text '0827975510' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2561-04-03 13:32:01 - [MESSAGE][PASSED] - Text '0827975510' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2561-04-03 13:32:01 - [TEST_STEP][PASSED] - setText: Text '025445687' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2561-04-03 13:32:01 - [MESSAGE][PASSED] - Text '025445687' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2561-04-03 13:32:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Register_Page/input_submit (1)' is clicked on
+
+2561-04-03 13:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Page/input_submit (1)' is clicked on
+
+2561-04-03 13:32:02 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'กรุณากรอกรหัสผ่าน' is present on page 
+
+2561-04-03 13:32:02 - [MESSAGE][PASSED] - Text 'กรุณากรอกรหัสผ่าน' is present on page 
+
+2561-04-03 13:32:02 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'กรุณายืนยันรหัสผ่านของท่าน' is present on page 
+
+2561-04-03 13:32:03 - [MESSAGE][PASSED] - Text 'กรุณายืนยันรหัสผ่านของท่าน' is present on page 
+
+2561-04-03 13:32:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-04-03 13:32:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register volunteer/Register05" classname="Test Cases/Register volunteer/Register05" status="PASSED">
+         <system-out><![CDATA[2561-04-03 13:32:03 - [TEST_CASE][PASSED] - Test Cases/Register volunteer/Register05: Test Cases/Register volunteer/Register05
+
+2561-04-03 13:32:03 - [TEST_STEP][PASSED] - Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString("abcdefghijklmnopqrstuvwxty123456789", 10): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:32:03 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:32:03 - [TEST_STEP][PASSED] - Statement - randomPass = CustomKeywords.generateEmail.genEmail.randomString("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", 250): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:32:03 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:32:03 - [TEST_STEP][PASSED] - Statement - randomNameTH = CustomKeywords.generateEmail.genEmail.randomString("กขคฆงจฉชซฐฏฤๆไำพะัีรึภถุูฃฅบยญ๊รธะฑพฟหฆกฏดโฌเ็้่าษสศวฦฝฬใฒฒทื์ิฮอแปผ", 250): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:32:03 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:32:03 - [TEST_STEP][PASSED] - Statement - randomNameEN = CustomKeywords.generateEmail.genEmail.randomString("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", 250): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:32:03 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:32:03 - [TEST_STEP][PASSED] - Statement - randomR = CustomKeywords.random.randomReligion.randomRRR(): random.randomReligion.randomRRR is PASSED
+
+2561-04-03 13:32:03 - [MESSAGE][PASSED] - random.randomReligion.randomRRR is PASSED
+
+2561-04-03 13:32:03 - [TEST_STEP][PASSED] - Statement - radomD = CustomKeywords.random.randomDegree.randomDeg(): random.randomDegree.randomDeg is PASSED
+
+2561-04-03 13:32:03 - [MESSAGE][PASSED] - random.randomDegree.randomDeg is PASSED
+
+2561-04-03 13:32:03 - [TEST_STEP][PASSED] - Statement - randomJ = CustomKeywords.random.randomJobs.randomJOb(): random.randomJobs.randomJOb is PASSED
+
+2561-04-03 13:32:03 - [MESSAGE][PASSED] - random.randomJobs.randomJOb is PASSED
+
+2561-04-03 13:32:03 - [TEST_STEP][PASSED] - Statement - randomS = CustomKeywords.random.randomStatus.randomSta(): random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:32:03 - [MESSAGE][PASSED] - random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:32:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-04-03 13:32:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-04-03 13:32:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-04-03 13:32:32 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-04-03 13:32:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Register_Page/a_' is clicked on
+
+2561-04-03 13:32:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Page/a_' is clicked on
+
+2561-04-03 13:32:33 - [TEST_STEP][PASSED] - setText: Text 'suphisit1@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL (1)'
+
+2561-04-03 13:32:33 - [MESSAGE][PASSED] - Text 'suphisit1@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL (1)'
+
+2561-04-03 13:32:33 - [TEST_STEP][PASSED] - setText: Text 'cggWzWozynsuclHfwAWZQXFHTglnQKMiDFGvgdlnvsNHfDXaXETxnVAcPJXrHwEfrCrEWoPWzfaJLOYBWCUAErBfUSOvNGQSNzWhsRtLBXdHwkeWoARUcrJxJLzJSIetFNGKCzkvLdjmiLaECfKqNrPxTPwLLeEsaYAikRfIKwEeedrMgqbytWYvSueuuoulCHdmHBGVllEDicOsFzQAfrXMOFEBdWbCCuDzdqSGCoWpcemuKSIPfoBPiw' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2561-04-03 13:32:35 - [MESSAGE][PASSED] - Text 'cggWzWozynsuclHfwAWZQXFHTglnQKMiDFGvgdlnvsNHfDXaXETxnVAcPJXrHwEfrCrEWoPWzfaJLOYBWCUAErBfUSOvNGQSNzWhsRtLBXdHwkeWoARUcrJxJLzJSIetFNGKCzkvLdjmiLaECfKqNrPxTPwLLeEsaYAikRfIKwEeedrMgqbytWYvSueuuoulCHdmHBGVllEDicOsFzQAfrXMOFEBdWbCCuDzdqSGCoWpcemuKSIPfoBPiw' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2561-04-03 13:32:35 - [TEST_STEP][PASSED] - setText: Text 'cggWzWozynsuclHfwAWZQXFHTglnQKMiDFGvgdlnvsNHfDXaXETxnVAcPJXrHwEfrCrEWoPWzfaJLOYBWCUAErBfUSOvNGQSNzWhsRtLBXdHwkeWoARUcrJxJLzJSIetFNGKCzkvLdjmiLaECfKqNrPxTPwLLeEsaYAikRfIKwEeedrMgqbytWYvSueuuoulCHdmHBGVllEDicOsFzQAfrXMOFEBdWbCCuDzdqSGCoWpcemuKSIPfoBPiw' is set on object 'Object Repository/Register_Page/input_password_confirmation'
+
+2561-04-03 13:32:36 - [MESSAGE][PASSED] - Text 'cggWzWozynsuclHfwAWZQXFHTglnQKMiDFGvgdlnvsNHfDXaXETxnVAcPJXrHwEfrCrEWoPWzfaJLOYBWCUAErBfUSOvNGQSNzWhsRtLBXdHwkeWoARUcrJxJLzJSIetFNGKCzkvLdjmiLaECfKqNrPxTPwLLeEsaYAikRfIKwEeedrMgqbytWYvSueuuoulCHdmHBGVllEDicOsFzQAfrXMOFEBdWbCCuDzdqSGCoWpcemuKSIPfoBPiw' is set on object 'Object Repository/Register_Page/input_password_confirmation'
+
+2561-04-03 13:32:36 - [TEST_STEP][PASSED] - setText: Text 'ีฉ้คซฬคฏสจ์คเซฆฌฮฒใ่ผุกพีธฒรๆู๊ธเะซโเกฃ่กทฅดผพฒพผึึ่ฆฒฒรเฃัฏีถรืฝฉหฒหพไุพอฑวแคะทฏฒพอวพๆษฃฌฆฏฆอญ็ูภืขะหจพฌพฉฆฮวฝะ่้พขจภพึจ์๊ฃรฮศิหดภปซยฅ่ทถฒฅยะิขย่คซฝวืดะภฦฅษกภะบพฟกดู่ีจผฮฃไจุฑฬรฒะพสศผจะฤูฒฟฝฆกฌสศืฮ่ัึพเึจภฐหฏฏโะส็หฮฉฑะฒคชฤำคฐไฑฑถิฮบฝกฬงะ๊รฤธฉผธไโษฒู' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2561-04-03 13:32:37 - [MESSAGE][PASSED] - Text 'ีฉ้คซฬคฏสจ์คเซฆฌฮฒใ่ผุกพีธฒรๆู๊ธเะซโเกฃ่กทฅดผพฒพผึึ่ฆฒฒรเฃัฏีถรืฝฉหฒหพไุพอฑวแคะทฏฒพอวพๆษฃฌฆฏฆอญ็ูภืขะหจพฌพฉฆฮวฝะ่้พขจภพึจ์๊ฃรฮศิหดภปซยฅ่ทถฒฅยะิขย่คซฝวืดะภฦฅษกภะบพฟกดู่ีจผฮฃไจุฑฬรฒะพสศผจะฤูฒฟฝฆกฌสศืฮ่ัึพเึจภฐหฏฏโะส็หฮฉฑะฒคชฤำคฐไฑฑถิฮบฝกฬงะ๊รฤธฉผธไโษฒู' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2561-04-03 13:32:37 - [TEST_STEP][PASSED] - setText: Text 'ีฉ้คซฬคฏสจ์คเซฆฌฮฒใ่ผุกพีธฒรๆู๊ธเะซโเกฃ่กทฅดผพฒพผึึ่ฆฒฒรเฃัฏีถรืฝฉหฒหพไุพอฑวแคะทฏฒพอวพๆษฃฌฆฏฆอญ็ูภืขะหจพฌพฉฆฮวฝะ่้พขจภพึจ์๊ฃรฮศิหดภปซยฅ่ทถฒฅยะิขย่คซฝวืดะภฦฅษกภะบพฟกดู่ีจผฮฃไจุฑฬรฒะพสศผจะฤูฒฟฝฆกฌสศืฮ่ัึพเึจภฐหฏฏโะส็หฮฉฑะฒคชฤำคฐไฑฑถิฮบฝกฬงะ๊รฤธฉผธไโษฒู' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2561-04-03 13:32:39 - [MESSAGE][PASSED] - Text 'ีฉ้คซฬคฏสจ์คเซฆฌฮฒใ่ผุกพีธฒรๆู๊ธเะซโเกฃ่กทฅดผพฒพผึึ่ฆฒฒรเฃัฏีถรืฝฉหฒหพไุพอฑวแคะทฏฒพอวพๆษฃฌฆฏฆอญ็ูภืขะหจพฌพฉฆฮวฝะ่้พขจภพึจ์๊ฃรฮศิหดภปซยฅ่ทถฒฅยะิขย่คซฝวืดะภฦฅษกภะบพฟกดู่ีจผฮฃไจุฑฬรฒะพสศผจะฤูฒฟฝฆกฌสศืฮ่ัึพเึจภฐหฏฏโะส็หฮฉฑะฒคชฤำคฐไฑฑถิฮบฝกฬงะ๊รฤธฉผธไโษฒู' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2561-04-03 13:32:39 - [TEST_STEP][PASSED] - setText: Text 'KjMIbLqrjrMIYKKCjXfYMClsKpiGqkoncXOZugjoGvPProAZsEXcBQxUzIaoCKthdvVNbXnTZOwKpXAQqYjUeVrkJqikfgkBVgeCxnXpwaAfBtcGpcxwKRWYOZyFEzKjAezKMAPFnACksisXhuSkZVXBojSKZuqxqBFjYTqAyjyYhUWNmWPIcUmfIVfhDFiynlNjOLZSZtkupZcFQaDQCeaxGXjpltvkPRWMOwcCHcgUjsHNOcmMUfYASo' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2561-04-03 13:32:40 - [MESSAGE][PASSED] - Text 'KjMIbLqrjrMIYKKCjXfYMClsKpiGqkoncXOZugjoGvPProAZsEXcBQxUzIaoCKthdvVNbXnTZOwKpXAQqYjUeVrkJqikfgkBVgeCxnXpwaAfBtcGpcxwKRWYOZyFEzKjAezKMAPFnACksisXhuSkZVXBojSKZuqxqBFjYTqAyjyYhUWNmWPIcUmfIVfhDFiynlNjOLZSZtkupZcFQaDQCeaxGXjpltvkPRWMOwcCHcgUjsHNOcmMUfYASo' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2561-04-03 13:32:40 - [TEST_STEP][PASSED] - setText: Text 'KjMIbLqrjrMIYKKCjXfYMClsKpiGqkoncXOZugjoGvPProAZsEXcBQxUzIaoCKthdvVNbXnTZOwKpXAQqYjUeVrkJqikfgkBVgeCxnXpwaAfBtcGpcxwKRWYOZyFEzKjAezKMAPFnACksisXhuSkZVXBojSKZuqxqBFjYTqAyjyYhUWNmWPIcUmfIVfhDFiynlNjOLZSZtkupZcFQaDQCeaxGXjpltvkPRWMOwcCHcgUjsHNOcmMUfYASo' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2561-04-03 13:32:41 - [MESSAGE][PASSED] - Text 'KjMIbLqrjrMIYKKCjXfYMClsKpiGqkoncXOZugjoGvPProAZsEXcBQxUzIaoCKthdvVNbXnTZOwKpXAQqYjUeVrkJqikfgkBVgeCxnXpwaAfBtcGpcxwKRWYOZyFEzKjAezKMAPFnACksisXhuSkZVXBojSKZuqxqBFjYTqAyjyYhUWNmWPIcUmfIVfhDFiynlNjOLZSZtkupZcFQaDQCeaxGXjpltvkPRWMOwcCHcgUjsHNOcmMUfYASo' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2561-04-03 13:32:41 - [TEST_STEP][PASSED] - setText: Text '13/10/1994' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2561-04-03 13:32:41 - [MESSAGE][PASSED] - Text '13/10/1994' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2561-04-03 13:32:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'คริส' are selected in object 'Object Repository/Register_Page/select_'  using regular expression
+
+2561-04-03 13:32:42 - [MESSAGE][PASSED] - All options with value 'คริส' are selected in object 'Object Repository/Register_Page/select_'  using regular expression
+
+2561-04-03 13:32:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Register_Page/select__1'  using regular expression
+
+2561-04-03 13:32:42 - [MESSAGE][PASSED] - All options with value 'ปริญญาตรี' are selected in object 'Object Repository/Register_Page/select__1'  using regular expression
+
+2561-04-03 13:32:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'นักศึกษา' are selected in object 'Object Repository/Register_Page/select__2'  using regular expression
+
+2561-04-03 13:32:42 - [MESSAGE][PASSED] - All options with value 'นักศึกษา' are selected in object 'Object Repository/Register_Page/select__2'  using regular expression
+
+2561-04-03 13:32:42 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2561-04-03 13:32:42 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2561-04-03 13:32:42 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2561-04-03 13:32:42 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2561-04-03 13:32:42 - [TEST_STEP][PASSED] - setText: Text 'พหลโยธิน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2561-04-03 13:32:42 - [MESSAGE][PASSED] - Text 'พหลโยธิน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2561-04-03 13:32:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:32:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:32:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '45' are selected in object 'Object Repository/Register_Page/ADDRESS_PROVINCE' 
+
+2561-04-03 13:32:44 - [MESSAGE][PASSED] - All options with value '45' are selected in object 'Object Repository/Register_Page/ADDRESS_PROVINCE' 
+
+2561-04-03 13:32:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:32:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:32:46 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '665' are selected in object 'Object Repository/Register_Page/ADDRESS_DISTRICT' 
+
+2561-04-03 13:32:47 - [MESSAGE][PASSED] - All options with value '665' are selected in object 'Object Repository/Register_Page/ADDRESS_DISTRICT' 
+
+2561-04-03 13:32:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:32:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:32:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '14726' are selected in object 'Object Repository/Register_Page/ADDRESS_SUBDISTRICT' 
+
+2561-04-03 13:32:49 - [MESSAGE][PASSED] - All options with value '14726' are selected in object 'Object Repository/Register_Page/ADDRESS_SUBDISTRICT' 
+
+2561-04-03 13:32:49 - [TEST_STEP][PASSED] - setText: Text '57130' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2561-04-03 13:32:49 - [MESSAGE][PASSED] - Text '57130' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2561-04-03 13:32:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'กำลังศึกษา' are selected in object 'Object Repository/Register_Page/select__3'  using regular expression
+
+2561-04-03 13:32:49 - [MESSAGE][PASSED] - All options with value 'กำลังศึกษา' are selected in object 'Object Repository/Register_Page/select__3'  using regular expression
+
+2561-04-03 13:32:49 - [TEST_STEP][PASSED] - setText: Text '3 หมู่ที่ 10 ต.โป่งผา อ.แม่สาย จ.เชียงราย' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2561-04-03 13:32:49 - [MESSAGE][PASSED] - Text '3 หมู่ที่ 10 ต.โป่งผา อ.แม่สาย จ.เชียงราย' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2561-04-03 13:32:49 - [TEST_STEP][PASSED] - setText: Text '053646789' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2561-04-03 13:32:49 - [MESSAGE][PASSED] - Text '053646789' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2561-04-03 13:32:49 - [TEST_STEP][PASSED] - setText: Text '0827975510' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2561-04-03 13:32:50 - [MESSAGE][PASSED] - Text '0827975510' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2561-04-03 13:32:50 - [TEST_STEP][PASSED] - setText: Text '025445687' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2561-04-03 13:32:50 - [MESSAGE][PASSED] - Text '025445687' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2561-04-03 13:32:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Register_Page/input_submit (1)' is clicked on
+
+2561-04-03 13:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Page/input_submit (1)' is clicked on
+
+2561-04-03 13:32:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-04-03 13:32:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register volunteer/Register06" classname="Test Cases/Register volunteer/Register06" status="PASSED">
+         <system-out><![CDATA[2561-04-03 13:32:57 - [TEST_CASE][PASSED] - Test Cases/Register volunteer/Register06: Test Cases/Register volunteer/Register06
+
+2561-04-03 13:32:57 - [TEST_STEP][PASSED] - Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString("abcdefghijklmnopqrstuvwxty123456789", 10): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:32:57 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:32:57 - [TEST_STEP][PASSED] - Statement - randomPass = CustomKeywords.generateEmail.genEmail.randomString("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", 10): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:32:57 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:32:57 - [TEST_STEP][PASSED] - Statement - randomR = CustomKeywords.random.randomReligion.randomRRR(): random.randomReligion.randomRRR is PASSED
+
+2561-04-03 13:32:57 - [MESSAGE][PASSED] - random.randomReligion.randomRRR is PASSED
+
+2561-04-03 13:32:57 - [TEST_STEP][PASSED] - Statement - radomD = CustomKeywords.random.randomDegree.randomDeg(): random.randomDegree.randomDeg is PASSED
+
+2561-04-03 13:32:57 - [MESSAGE][PASSED] - random.randomDegree.randomDeg is PASSED
+
+2561-04-03 13:32:57 - [TEST_STEP][PASSED] - Statement - randomJ = CustomKeywords.random.randomJobs.randomJOb(): random.randomJobs.randomJOb is PASSED
+
+2561-04-03 13:32:57 - [MESSAGE][PASSED] - random.randomJobs.randomJOb is PASSED
+
+2561-04-03 13:32:57 - [TEST_STEP][PASSED] - Statement - randomS = CustomKeywords.random.randomStatus.randomSta(): random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:32:57 - [MESSAGE][PASSED] - random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:32:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-04-03 13:32:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-04-03 13:32:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-04-03 13:33:25 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-04-03 13:33:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Register_Page/a_' is clicked on
+
+2561-04-03 13:33:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Page/a_' is clicked on
+
+2561-04-03 13:33:31 - [TEST_STEP][PASSED] - setText: Text 'suphisit1@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL (1)'
+
+2561-04-03 13:33:31 - [MESSAGE][PASSED] - Text 'suphisit1@gmail.com' is set on object 'Object Repository/Register_Page/input_EMAIL (1)'
+
+2561-04-03 13:33:31 - [TEST_STEP][PASSED] - setText: Text 'ccJkTvwQXb' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2561-04-03 13:33:31 - [MESSAGE][PASSED] - Text 'ccJkTvwQXb' is set on object 'Object Repository/Register_Page/input_PASSWORD'
+
+2561-04-03 13:33:31 - [TEST_STEP][PASSED] - setText: Text 'ccJkTvwQXb' is set on object 'Object Repository/Register_Page/input_password_confirmation'
+
+2561-04-03 13:33:32 - [MESSAGE][PASSED] - Text 'ccJkTvwQXb' is set on object 'Object Repository/Register_Page/input_password_confirmation'
+
+2561-04-03 13:33:32 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2561-04-03 13:33:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_TH'
+
+2561-04-03 13:33:32 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2561-04-03 13:33:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register_Page/input_LAST_NAME_TH'
+
+2561-04-03 13:33:32 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2561-04-03 13:33:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register_Page/input_FIRST_NAME_EN'
+
+2561-04-03 13:33:32 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2561-04-03 13:33:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register_Page/input_LAST_NAME_EN'
+
+2561-04-03 13:33:32 - [TEST_STEP][PASSED] - setText: Text '13/10/1994' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2561-04-03 13:33:32 - [MESSAGE][PASSED] - Text '13/10/1994' is set on object 'Object Repository/Register_Page/input_BIRTH_DATE'
+
+2561-04-03 13:33:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'พุทธ' are selected in object 'Object Repository/Register_Page/select_'  using regular expression
+
+2561-04-03 13:33:32 - [MESSAGE][PASSED] - All options with value 'พุทธ' are selected in object 'Object Repository/Register_Page/select_'  using regular expression
+
+2561-04-03 13:33:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'ต่ำกว่าปริญญาตรี' are selected in object 'Object Repository/Register_Page/select__1'  using regular expression
+
+2561-04-03 13:33:32 - [MESSAGE][PASSED] - All options with value 'ต่ำกว่าปริญญาตรี' are selected in object 'Object Repository/Register_Page/select__1'  using regular expression
+
+2561-04-03 13:33:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'อื่นๆ' are selected in object 'Object Repository/Register_Page/select__2'  using regular expression
+
+2561-04-03 13:33:33 - [MESSAGE][PASSED] - All options with value 'อื่นๆ' are selected in object 'Object Repository/Register_Page/select__2'  using regular expression
+
+2561-04-03 13:33:33 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2561-04-03 13:33:33 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Register_Page/input_ADDRESS_NO'
+
+2561-04-03 13:33:33 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2561-04-03 13:33:33 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Register_Page/input_ADDRESS_MOO'
+
+2561-04-03 13:33:33 - [TEST_STEP][PASSED] - setText: Text 'พหลโยธิน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2561-04-03 13:33:33 - [MESSAGE][PASSED] - Text 'พหลโยธิน' is set on object 'Object Repository/Register_Page/input_ADDRESS_ROAD'
+
+2561-04-03 13:33:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:33:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:33:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '45' are selected in object 'Object Repository/Register_Page/ADDRESS_PROVINCE' 
+
+2561-04-03 13:33:35 - [MESSAGE][PASSED] - All options with value '45' are selected in object 'Object Repository/Register_Page/ADDRESS_PROVINCE' 
+
+2561-04-03 13:33:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:33:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:33:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '665' are selected in object 'Object Repository/Register_Page/ADDRESS_DISTRICT' 
+
+2561-04-03 13:33:38 - [MESSAGE][PASSED] - All options with value '665' are selected in object 'Object Repository/Register_Page/ADDRESS_DISTRICT' 
+
+2561-04-03 13:33:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2561-04-03 13:33:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2561-04-03 13:33:40 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '14726' are selected in object 'Object Repository/Register_Page/ADDRESS_SUBDISTRICT' 
+
+2561-04-03 13:33:40 - [MESSAGE][PASSED] - All options with value '14726' are selected in object 'Object Repository/Register_Page/ADDRESS_SUBDISTRICT' 
+
+2561-04-03 13:33:40 - [TEST_STEP][PASSED] - setText: Text '57130' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2561-04-03 13:33:40 - [MESSAGE][PASSED] - Text '57130' is set on object 'Object Repository/Register_Page/input_ADDRESS_POSTCODE'
+
+2561-04-03 13:33:40 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'กำลังศึกษา' are selected in object 'Object Repository/Register_Page/select__3'  using regular expression
+
+2561-04-03 13:33:40 - [MESSAGE][PASSED] - All options with value 'กำลังศึกษา' are selected in object 'Object Repository/Register_Page/select__3'  using regular expression
+
+2561-04-03 13:33:40 - [TEST_STEP][PASSED] - setText: Text '3 หมู่ที่ 10 ต.โป่งผา อ.แม่สาย จ.เชียงราย' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2561-04-03 13:33:40 - [MESSAGE][PASSED] - Text '3 หมู่ที่ 10 ต.โป่งผา อ.แม่สาย จ.เชียงราย' is set on object 'Object Repository/Register_Page/input_ADDRESS_ALL'
+
+2561-04-03 13:33:40 - [TEST_STEP][PASSED] - setText: Text '053646789' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2561-04-03 13:33:40 - [MESSAGE][PASSED] - Text '053646789' is set on object 'Object Repository/Register_Page/input_PHONE'
+
+2561-04-03 13:33:40 - [TEST_STEP][PASSED] - setText: Text '0827975510' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2561-04-03 13:33:41 - [MESSAGE][PASSED] - Text '0827975510' is set on object 'Object Repository/Register_Page/input_CELL_PHONE'
+
+2561-04-03 13:33:41 - [TEST_STEP][PASSED] - setText: Text '025445687' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2561-04-03 13:33:41 - [MESSAGE][PASSED] - Text '025445687' is set on object 'Object Repository/Register_Page/input_FAX'
+
+2561-04-03 13:33:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Register_Page/input_submit (1)' is clicked on
+
+2561-04-03 13:33:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Register_Page/input_submit (1)' is clicked on
+
+2561-04-03 13:33:49 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'กรุณากรอกชื่อ' is present on page 
+
+2561-04-03 13:33:49 - [MESSAGE][PASSED] - Text 'กรุณากรอกชื่อ' is present on page 
+
+2561-04-03 13:33:49 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'กรุณากรอกนามสกุล' is present on page 
+
+2561-04-03 13:33:50 - [MESSAGE][PASSED] - Text 'กรุณากรอกนามสกุล' is present on page 
+
+2561-04-03 13:33:50 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'กรุณากรอกชื่อภาษาอังกฤษ' is present on page 
+
+2561-04-03 13:33:50 - [MESSAGE][PASSED] - Text 'กรุณากรอกชื่อภาษาอังกฤษ' is present on page 
+
+2561-04-03 13:33:50 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'กรุณากรอกนามสกุลภาษาอังกฤษ' is present on page 
+
+2561-04-03 13:33:50 - [MESSAGE][PASSED] - Text 'กรุณากรอกนามสกุลภาษาอังกฤษ' is present on page 
+
+2561-04-03 13:33:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-04-03 13:33:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register volunteer/Register07" classname="Test Cases/Register volunteer/Register07" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Register_Page/a_' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUPHISIT', ip: '192.168.219.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: c2e58f65829af8543c759ee25cfe81c1
+*** Element info: {Using=xpath, value=//a[@href = 'http://vivblind.play2pay.me/volunteer/register' and @title = 'ลงทะเบียนอาสาสมัคร' and @alt = 'ลงทะเบียนอาสาสมัคร' and (text() = 'ลงทะเบียนอาสาสมัคร' or . = 'ลงทะเบียนอาสาสมัคร')]})"/>
+         <system-out><![CDATA[2561-04-03 13:33:51 - [TEST_CASE][FAILED] - Test Cases/Register volunteer/Register07: Test Cases/Register volunteer/Register07 FAILED because (of) Unable to click on object 'Object Repository/Register_Page/a_' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUPHISIT', ip: '192.168.219.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: c2e58f65829af8543c759ee25cfe81c1
+*** Element info: {Using=xpath, value=//a[@href = 'http://vivblind.play2pay.me/volunteer/register' and @title = 'ลงทะเบียนอาสาสมัคร' and @alt = 'ลงทะเบียนอาสาสมัคร' and (text() = 'ลงทะเบียนอาสาสมัคร' or . = 'ลงทะเบียนอาสาสมัคร')]})
+
+2561-04-03 13:33:51 - [TEST_STEP][PASSED] - Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString("abcdefghijklmnopqrstuvwxty123456789", 10): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:33:51 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:33:51 - [TEST_STEP][PASSED] - Statement - randomName = CustomKeywords.generateEmail.genEmail.randomString("กขคฆงจฉชซฐฏฤๆไำพะัีรึภถุูฃฅบยญ๊รธะฑพฟหฆกฏดโฌเ็้่าษสศวฦฝฬใฒฒทื์ิฮอแปผabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456489/*-+ๅ/-$%^&*()_", 12): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:33:51 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:33:51 - [TEST_STEP][PASSED] - Statement - randomR = CustomKeywords.random.randomReligion.randomRRR(): random.randomReligion.randomRRR is PASSED
+
+2561-04-03 13:33:51 - [MESSAGE][PASSED] - random.randomReligion.randomRRR is PASSED
+
+2561-04-03 13:33:51 - [TEST_STEP][PASSED] - Statement - radomD = CustomKeywords.random.randomDegree.randomDeg(): random.randomDegree.randomDeg is PASSED
+
+2561-04-03 13:33:51 - [MESSAGE][PASSED] - random.randomDegree.randomDeg is PASSED
+
+2561-04-03 13:33:51 - [TEST_STEP][PASSED] - Statement - randomJ = CustomKeywords.random.randomJobs.randomJOb(): random.randomJobs.randomJOb is PASSED
+
+2561-04-03 13:33:51 - [MESSAGE][PASSED] - random.randomJobs.randomJOb is PASSED
+
+2561-04-03 13:33:51 - [TEST_STEP][PASSED] - Statement - randomS = CustomKeywords.random.randomStatus.randomSta(): random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:33:51 - [MESSAGE][PASSED] - random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:33:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-04-03 13:33:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-04-03 13:33:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-04-03 13:33:55 - [MESSAGE][PASSED] - Navigate to 'http://vivblind.play2pay.me/' successfully
+
+2561-04-03 13:33:55 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Register_Page/a_' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUPHISIT', ip: '192.168.219.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: c2e58f65829af8543c759ee25cfe81c1
+*** Element info: {Using=xpath, value=//a[@href = 'http://vivblind.play2pay.me/volunteer/register' and @title = 'ลงทะเบียนอาสาสมัคร' and @alt = 'ลงทะเบียนอาสาสมัคร' and (text() = 'ลงทะเบียนอาสาสมัคร' or . = 'ลงทะเบียนอาสาสมัคร')]})
+
+2561-04-03 13:33:55 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2561-04-03 13:33:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Register_Page/a_' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUPHISIT', ip: '192.168.219.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: c2e58f65829af8543c759ee25cfe81c1
+*** Element info: {Using=xpath, value=//a[@href = 'http://vivblind.play2pay.me/volunteer/register' and @title = 'ลงทะเบียนอาสาสมัคร' and @alt = 'ลงทะเบียนอาสาสมัคร' and (text() = 'ลงทะเบียนอาสาสมัคร' or . = 'ลงทะเบียนอาสาสมัคร')]})]]></system-out>
+         <system-err><![CDATA[2561-04-03 13:33:51 - [TEST_CASE][FAILED] - Test Cases/Register volunteer/Register07: Test Cases/Register volunteer/Register07 FAILED because (of) Unable to click on object 'Object Repository/Register_Page/a_' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUPHISIT', ip: '192.168.219.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: c2e58f65829af8543c759ee25cfe81c1
+*** Element info: {Using=xpath, value=//a[@href = 'http://vivblind.play2pay.me/volunteer/register' and @title = 'ลงทะเบียนอาสาสมัคร' and @alt = 'ลงทะเบียนอาสาสมัคร' and (text() = 'ลงทะเบียนอาสาสมัคร' or . = 'ลงทะเบียนอาสาสมัคร')]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register volunteer/Register08" classname="Test Cases/Register volunteer/Register08" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'http://vivblind.play2pay.me/' (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUPHISIT', ip: '192.168.219.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: d21c203b5776d8e4afcce94d535b5977)"/>
+         <system-out><![CDATA[2561-04-03 13:33:55 - [TEST_CASE][FAILED] - Test Cases/Register volunteer/Register08: Test Cases/Register volunteer/Register08 FAILED because (of) Unable to navigate to 'http://vivblind.play2pay.me/' (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUPHISIT', ip: '192.168.219.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: d21c203b5776d8e4afcce94d535b5977)
+
+2561-04-03 13:33:55 - [TEST_STEP][PASSED] - Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString("abcdefghijklmnopqrstuvwxty123456789", 10): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:33:55 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:33:55 - [TEST_STEP][PASSED] - Statement - randomNameTH = CustomKeywords.generateEmail.genEmail.randomString("กขคฆงจฉชซฐฏฤๆไำพะัีรึภถุูฃฅบยญ๊รธะฑพฟหฆกฏดโฌเ็้่าษสศวฦฝฬใฒฒทื์ิฮอแปผ", 12): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:33:55 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:33:55 - [TEST_STEP][PASSED] - Statement - randomLastNameTH = CustomKeywords.generateEmail.genEmail.randomString("กขคฆงจฉชซฐฏฤๆไำพะัีรึภถุูฃฅบยญ๊รธะฑพฟหฆกฏดโฌเ็้่าษสศวฦฝฬใฒฒทื์ิฮอแปผ", 12): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:33:55 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:33:55 - [TEST_STEP][PASSED] - Statement - randomS = CustomKeywords.random.randomStatus.randomSta(): random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:33:55 - [MESSAGE][PASSED] - random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:33:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-04-03 13:33:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2561-04-03 13:33:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-04-03 13:33:58 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'http://vivblind.play2pay.me/' (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUPHISIT', ip: '192.168.219.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: d21c203b5776d8e4afcce94d535b5977)
+
+2561-04-03 13:34:02 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2561-04-03 13:34:02 - [MESSAGE][FAILED] - Unable to navigate to 'http://vivblind.play2pay.me/' (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUPHISIT', ip: '192.168.219.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: d21c203b5776d8e4afcce94d535b5977)]]></system-out>
+         <system-err><![CDATA[2561-04-03 13:33:55 - [TEST_CASE][FAILED] - Test Cases/Register volunteer/Register08: Test Cases/Register volunteer/Register08 FAILED because (of) Unable to navigate to 'http://vivblind.play2pay.me/' (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUPHISIT', ip: '192.168.219.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: d21c203b5776d8e4afcce94d535b5977)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register volunteer/Register09" classname="Test Cases/Register volunteer/Register09" status="INCOMPLETE">
+         <system-out><![CDATA[2561-04-03 13:34:02 - [TEST_CASE][INCOMPLETE] - Test Cases/Register volunteer/Register09: null
+
+2561-04-03 13:34:02 - [TEST_STEP][PASSED] - Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString("abcdefghijklmnopqrstuvwxty123456789", 10): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:34:02 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:34:02 - [TEST_STEP][PASSED] - Statement - randomNameTH = CustomKeywords.generateEmail.genEmail.randomString("กขคฆงจฉชซฐฏฤๆไำพะัีรึภถุูฃฅบยญ๊รธะฑพฟหฆกฏดโฌเ็้่าษสศวฦฝฬใฒฒทื์ิฮอแปผ", 12): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:34:02 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:34:02 - [TEST_STEP][PASSED] - Statement - randomLastNameTH = CustomKeywords.generateEmail.genEmail.randomString("กขคฆงจฉชซฐฏฤๆไำพะัีรึภถุูฃฅบยญ๊รธะฑพฟหฆกฏดโฌเ็้่าษสศวฦฝฬใฒฒทื์ิฮอแปผ", 12): generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:34:02 - [MESSAGE][PASSED] - generateEmail.genEmail.randomString is PASSED
+
+2561-04-03 13:34:02 - [TEST_STEP][PASSED] - Statement - randomS = CustomKeywords.random.randomStatus.randomSta(): random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:34:02 - [MESSAGE][PASSED] - random.randomStatus.randomSta is PASSED
+
+2561-04-03 13:34:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-04-03 13:34:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2561-04-03 13:34:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-04-03 13:34:05 - [TEST_STEP][INCOMPLETE] - navigateToUrl: Navigating to 'http://vivblind.play2pay.me/']]></system-out>
+         <system-err><![CDATA[2561-04-03 13:34:02 - [TEST_CASE][INCOMPLETE] - Test Cases/Register volunteer/Register09: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2561-04-03 13:29:09 - [TEST_SUITE][INCOMPLETE] - Register: null]]></system-out>
+      <system-err><![CDATA[2561-04-03 13:29:09 - [TEST_SUITE][INCOMPLETE] - Register: null]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,281 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Register,Chrome 65.0.3325.181,,2561-04-03 13:29:09,2561-04-03 13:34:05,4m - 55.750s,INCOMPLETE
+,,,,,,
+Test Cases/Register volunteer/Register01,Chrome 65.0.3325.181,\u0E01\u0E23\u0E2D\u0E01\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E43\u0E2B\u0E49\u0E16\u0E39\u0E01\u0E15\u0E49\u0E2D\u0E07\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14,2561-04-03 13:29:09,2561-04-03 13:29:58,48.923s,PASSED
+"Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString(""abcdefghijklmnopqrstuvwxty123456789"", 10)",Chrome 65.0.3325.181,,2561-04-03 13:29:10,2561-04-03 13:29:10,0.027s,PASSED
+"Statement - randomNameTH = CustomKeywords.generateEmail.genEmail.randomString(""°¢§¶ß®©™´∞ØƒÊ‰”æ–—’√÷¿∂ÿŸ£•∫¬≠Í√∏–±æøÀ¶°Ø¥‚¨‡ÁÈË“… »«∆ΩÃ„≤≤∑◊Ï‘ŒÕ·ªº"", 12)",Chrome 65.0.3325.181,,2561-04-03 13:29:10,2561-04-03 13:29:10,0.002s,PASSED
+"Statement - randomLastNameTH = CustomKeywords.generateEmail.genEmail.randomString(""°¢§¶ß®©™´∞ØƒÊ‰”æ–—’√÷¿∂ÿŸ£•∫¬≠Í√∏–±æøÀ¶°Ø¥‚¨‡ÁÈË“… »«∆ΩÃ„≤≤∑◊Ï‘ŒÕ·ªº"", 12)",Chrome 65.0.3325.181,,2561-04-03 13:29:10,2561-04-03 13:29:10,0.002s,PASSED
+Statement - randomR = CustomKeywords.random.randomReligion.randomRRR(),Chrome 65.0.3325.181,,2561-04-03 13:29:10,2561-04-03 13:29:10,0.011s,PASSED
+Statement - radomD = CustomKeywords.random.randomDegree.randomDeg(),Chrome 65.0.3325.181,,2561-04-03 13:29:10,2561-04-03 13:29:10,0.004s,PASSED
+Statement - randomJ = CustomKeywords.random.randomJobs.randomJOb(),Chrome 65.0.3325.181,,2561-04-03 13:29:10,2561-04-03 13:29:10,0.008s,PASSED
+Statement - randomS = CustomKeywords.random.randomStatus.randomSta(),Chrome 65.0.3325.181,,2561-04-03 13:29:10,2561-04-03 13:29:10,0.005s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2561-04-03 13:29:10,2561-04-03 13:29:13,3.309s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2561-04-03 13:29:13,2561-04-03 13:29:41,27.936s,PASSED
+click,Chrome 65.0.3325.181,,2561-04-03 13:29:41,2561-04-03 13:29:42,1.002s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:29:42,2561-04-03 13:29:42,0.262s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:29:42,2561-04-03 13:29:43,0.169s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:29:43,2561-04-03 13:29:43,0.183s,PASSED
+uploadFile,Chrome 65.0.3325.181,,2561-04-03 13:29:43,2561-04-03 13:29:43,0.079s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:29:43,2561-04-03 13:29:43,0.204s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:29:43,2561-04-03 13:29:43,0.197s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:29:43,2561-04-03 13:29:43,0.172s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:29:43,2561-04-03 13:29:44,0.165s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:29:44,2561-04-03 13:29:44,0.302s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:29:44,2561-04-03 13:29:44,0.313s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:29:44,2561-04-03 13:29:44,0.319s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:29:44,2561-04-03 13:29:45,0.403s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:29:45,2561-04-03 13:29:45,0.175s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:29:45,2561-04-03 13:29:45,0.149s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:29:45,2561-04-03 13:29:45,0.157s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:29:45,2561-04-03 13:29:47,2.021s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:29:47,2561-04-03 13:29:47,0.123s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:29:47,2561-04-03 13:29:49,2.001s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:29:49,2561-04-03 13:29:50,0.114s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:29:50,2561-04-03 13:29:52,2.002s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:29:52,2561-04-03 13:29:52,0.110s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:29:52,2561-04-03 13:29:52,0.124s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:29:52,2561-04-03 13:29:52,0.186s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:29:52,2561-04-03 13:29:52,0.314s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:29:52,2561-04-03 13:29:52,0.149s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:29:52,2561-04-03 13:29:53,0.184s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:29:53,2561-04-03 13:29:53,0.141s,PASSED
+click,Chrome 65.0.3325.181,,2561-04-03 13:29:53,2561-04-03 13:29:58,4.742s,PASSED
+verifyTextPresent,Chrome 65.0.3325.181,,2561-04-03 13:29:58,2561-04-03 13:29:58,0.061s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2561-04-03 13:29:58,2561-04-03 13:29:58,0.714s,PASSED
+,,,,,,
+Test Cases/Register volunteer/Register02,Chrome 65.0.3325.181,\u0E01\u0E23\u0E2D\u0E01\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14 \u0E42\u0E14\u0E22\u0E01\u0E23\u0E2D\u0E01\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E44\u0E21\u0E48\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E01\u0E31\u0E1A\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19,2561-04-03 13:29:58,2561-04-03 13:30:39,40.260s,PASSED
+"Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString(""abcdefghijklmnopqrstuvwxty123456789"", 10)",Chrome 65.0.3325.181,,2561-04-03 13:29:59,2561-04-03 13:29:59,0.001s,PASSED
+"Statement - randomP = CustomKeywords.randomPass.randomPass.randomString(""abcdefghijklmnopqrstuvwxty123456789"", 10)",Chrome 65.0.3325.181,,2561-04-03 13:29:59,2561-04-03 13:29:59,0.036s,PASSED
+"Statement - randomPa = CustomKeywords.randomPass.randomPass.randomString(""abcdefghijklmnopqrstuvwxty123456789"", 10)",Chrome 65.0.3325.181,,2561-04-03 13:29:59,2561-04-03 13:29:59,0.000s,PASSED
+Statement - randomR = CustomKeywords.random.randomReligion.randomRRR(),Chrome 65.0.3325.181,,2561-04-03 13:29:59,2561-04-03 13:29:59,0.000s,PASSED
+Statement - radomD = CustomKeywords.random.randomDegree.randomDeg(),Chrome 65.0.3325.181,,2561-04-03 13:29:59,2561-04-03 13:29:59,0.001s,PASSED
+Statement - randomJ = CustomKeywords.random.randomJobs.randomJOb(),Chrome 65.0.3325.181,,2561-04-03 13:29:59,2561-04-03 13:29:59,0.000s,PASSED
+Statement - randomS = CustomKeywords.random.randomStatus.randomSta(),Chrome 65.0.3325.181,,2561-04-03 13:29:59,2561-04-03 13:29:59,0.000s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2561-04-03 13:29:59,2561-04-03 13:30:00,1.917s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2561-04-03 13:30:00,2561-04-03 13:30:25,25.035s,PASSED
+click,Chrome 65.0.3325.181,,2561-04-03 13:30:25,2561-04-03 13:30:27,1.223s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:30:27,2561-04-03 13:30:27,0.238s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:30:27,2561-04-03 13:30:27,0.140s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:30:27,2561-04-03 13:30:27,0.142s,PASSED
+uploadFile,Chrome 65.0.3325.181,,2561-04-03 13:30:27,2561-04-03 13:30:27,0.048s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:30:27,2561-04-03 13:30:27,0.155s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:30:27,2561-04-03 13:30:28,0.121s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:30:28,2561-04-03 13:30:28,0.144s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:30:28,2561-04-03 13:30:28,0.144s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:30:28,2561-04-03 13:30:28,0.260s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:30:28,2561-04-03 13:30:28,0.236s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:30:28,2561-04-03 13:30:29,0.186s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:30:29,2561-04-03 13:30:29,0.218s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:30:29,2561-04-03 13:30:29,0.127s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:30:29,2561-04-03 13:30:29,0.110s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:30:29,2561-04-03 13:30:29,0.146s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:30:29,2561-04-03 13:30:31,2.000s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:30:31,2561-04-03 13:30:31,0.150s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:30:31,2561-04-03 13:30:33,2.001s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:30:33,2561-04-03 13:30:33,0.141s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:30:33,2561-04-03 13:30:35,2.003s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:30:35,2561-04-03 13:30:36,0.153s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:30:36,2561-04-03 13:30:36,0.148s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:30:36,2561-04-03 13:30:36,0.169s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:30:36,2561-04-03 13:30:36,0.350s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:30:36,2561-04-03 13:30:36,0.143s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:30:36,2561-04-03 13:30:37,0.157s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:30:37,2561-04-03 13:30:37,0.155s,PASSED
+click,Chrome 65.0.3325.181,,2561-04-03 13:30:37,2561-04-03 13:30:38,1.040s,PASSED
+verifyTextPresent,Chrome 65.0.3325.181,,2561-04-03 13:30:38,2561-04-03 13:30:38,0.136s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2561-04-03 13:30:38,2561-04-03 13:30:39,0.715s,PASSED
+,,,,,,
+Test Cases/Register volunteer/Register03,Chrome 65.0.3325.181,\u0E01\u0E23\u0E2D\u0E01\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14 \u0E42\u0E14\u0E22\u0E01\u0E23\u0E2D\u0E01\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E41\u0E25\u0E30\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E48\u0E32\u0E19 3 \u0E15\u0E31\u0E27,2561-04-03 13:30:39,2561-04-03 13:31:24,44.945s,PASSED
+"Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString(""abcdefghijklmnopqrstuvwxty123456789"", 10)",Chrome 65.0.3325.181,,2561-04-03 13:30:39,2561-04-03 13:30:39,0.001s,PASSED
+"Statement - randomPL = CustomKeywords.randomPass.randomPass.randomString(""abcdefghijklmnopqrstuvwxty123456789"", 3)",Chrome 65.0.3325.181,,2561-04-03 13:30:39,2561-04-03 13:30:39,0.001s,PASSED
+Statement - randomR = CustomKeywords.random.randomReligion.randomRRR(),Chrome 65.0.3325.181,,2561-04-03 13:30:39,2561-04-03 13:30:39,0.000s,PASSED
+Statement - radomD = CustomKeywords.random.randomDegree.randomDeg(),Chrome 65.0.3325.181,,2561-04-03 13:30:39,2561-04-03 13:30:39,0.000s,PASSED
+Statement - randomJ = CustomKeywords.random.randomJobs.randomJOb(),Chrome 65.0.3325.181,,2561-04-03 13:30:39,2561-04-03 13:30:39,0.000s,PASSED
+Statement - randomS = CustomKeywords.random.randomStatus.randomSta(),Chrome 65.0.3325.181,,2561-04-03 13:30:39,2561-04-03 13:30:39,0.000s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2561-04-03 13:30:39,2561-04-03 13:30:41,1.954s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2561-04-03 13:30:41,2561-04-03 13:31:06,25.327s,PASSED
+click,Chrome 65.0.3325.181,,2561-04-03 13:31:06,2561-04-03 13:31:12,5.788s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:12,2561-04-03 13:31:12,0.225s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:12,2561-04-03 13:31:12,0.117s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:12,2561-04-03 13:31:12,0.096s,PASSED
+uploadFile,Chrome 65.0.3325.181,,2561-04-03 13:31:12,2561-04-03 13:31:12,0.048s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:12,2561-04-03 13:31:12,0.153s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:12,2561-04-03 13:31:13,0.142s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:13,2561-04-03 13:31:13,0.142s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:13,2561-04-03 13:31:13,0.153s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:13,2561-04-03 13:31:13,0.210s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:31:13,2561-04-03 13:31:13,0.181s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:31:13,2561-04-03 13:31:14,0.288s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:31:14,2561-04-03 13:31:14,0.362s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:14,2561-04-03 13:31:14,0.118s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:14,2561-04-03 13:31:14,0.132s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:14,2561-04-03 13:31:14,0.157s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:31:14,2561-04-03 13:31:16,2.000s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:31:16,2561-04-03 13:31:17,0.143s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:31:17,2561-04-03 13:31:19,2.001s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:31:19,2561-04-03 13:31:19,0.123s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:31:19,2561-04-03 13:31:21,2.001s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:31:21,2561-04-03 13:31:21,0.139s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:21,2561-04-03 13:31:21,0.109s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:31:21,2561-04-03 13:31:21,0.153s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:21,2561-04-03 13:31:21,0.310s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:21,2561-04-03 13:31:21,0.136s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:21,2561-04-03 13:31:22,0.163s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:22,2561-04-03 13:31:22,0.141s,PASSED
+click,Chrome 65.0.3325.181,,2561-04-03 13:31:22,2561-04-03 13:31:23,0.925s,PASSED
+verifyTextPresent,Chrome 65.0.3325.181,,2561-04-03 13:31:23,2561-04-03 13:31:23,0.144s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2561-04-03 13:31:23,2561-04-03 13:31:24,0.700s,PASSED
+,,,,,,
+Test Cases/Register volunteer/Register04,Chrome 65.0.3325.181,\u0E01\u0E23\u0E2D\u0E01\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14 \u0E42\u0E14\u0E22\u0E44\u0E21\u0E48\u0E01\u0E23\u0E2D\u0E01\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19\u0E01\u0E31\u0E1A\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19\u0E23\u0E2B\u0E31\u0E2A\u0E1C\u0E48\u0E32\u0E19,2561-04-03 13:31:24,2561-04-03 13:32:03,39.753s,PASSED
+"Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString(""abcdefghijklmnopqrstuvwxty123456789"", 10)",Chrome 65.0.3325.181,,2561-04-03 13:31:24,2561-04-03 13:31:24,0.001s,PASSED
+"Statement - randomNameTH = CustomKeywords.generateEmail.genEmail.randomString(""°¢§¶ß®©™´∞ØƒÊ‰”æ–—’√÷¿∂ÿŸ£•∫¬≠Í√∏–±æøÀ¶°Ø¥‚¨‡ÁÈË“… »«∆ΩÃ„≤≤∑◊Ï‘ŒÕ·ªº"", 12)",Chrome 65.0.3325.181,,2561-04-03 13:31:24,2561-04-03 13:31:24,0.001s,PASSED
+"Statement - randomLastNameTH = CustomKeywords.generateEmail.genEmail.randomString(""°¢§¶ß®©™´∞ØƒÊ‰”æ–—’√÷¿∂ÿŸ£•∫¬≠Í√∏–±æøÀ¶°Ø¥‚¨‡ÁÈË“… »«∆ΩÃ„≤≤∑◊Ï‘ŒÕ·ªº"", 12)",Chrome 65.0.3325.181,,2561-04-03 13:31:24,2561-04-03 13:31:24,0.001s,PASSED
+Statement - randomR = CustomKeywords.random.randomReligion.randomRRR(),Chrome 65.0.3325.181,,2561-04-03 13:31:24,2561-04-03 13:31:24,0.000s,PASSED
+Statement - radomD = CustomKeywords.random.randomDegree.randomDeg(),Chrome 65.0.3325.181,,2561-04-03 13:31:24,2561-04-03 13:31:24,0.000s,PASSED
+Statement - randomJ = CustomKeywords.random.randomJobs.randomJOb(),Chrome 65.0.3325.181,,2561-04-03 13:31:24,2561-04-03 13:31:24,0.000s,PASSED
+Statement - randomS = CustomKeywords.random.randomStatus.randomSta(),Chrome 65.0.3325.181,,2561-04-03 13:31:24,2561-04-03 13:31:24,0.001s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2561-04-03 13:31:24,2561-04-03 13:31:26,1.929s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2561-04-03 13:31:26,2561-04-03 13:31:51,25.120s,PASSED
+click,Chrome 65.0.3325.181,,2561-04-03 13:31:51,2561-04-03 13:31:52,1.045s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:52,2561-04-03 13:31:52,0.230s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:52,2561-04-03 13:31:52,0.096s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:52,2561-04-03 13:31:52,0.085s,PASSED
+uploadFile,Chrome 65.0.3325.181,,2561-04-03 13:31:52,2561-04-03 13:31:52,0.046s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:52,2561-04-03 13:31:52,0.154s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:52,2561-04-03 13:31:53,0.108s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:53,2561-04-03 13:31:53,0.140s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:53,2561-04-03 13:31:53,0.119s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:53,2561-04-03 13:31:53,0.232s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:31:53,2561-04-03 13:31:53,0.212s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:31:53,2561-04-03 13:31:53,0.203s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:31:53,2561-04-03 13:31:54,0.192s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:54,2561-04-03 13:31:54,0.095s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:54,2561-04-03 13:31:54,0.099s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:31:54,2561-04-03 13:31:54,0.127s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:31:54,2561-04-03 13:31:56,2.001s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:31:56,2561-04-03 13:31:56,0.122s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:31:56,2561-04-03 13:31:58,2.000s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:31:58,2561-04-03 13:31:58,0.109s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:31:58,2561-04-03 13:32:00,2.002s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:32:00,2561-04-03 13:32:00,0.122s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:00,2561-04-03 13:32:00,0.135s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:32:00,2561-04-03 13:32:01,0.162s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:01,2561-04-03 13:32:01,0.330s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:01,2561-04-03 13:32:01,0.135s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:01,2561-04-03 13:32:01,0.145s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:01,2561-04-03 13:32:01,0.130s,PASSED
+click,Chrome 65.0.3325.181,,2561-04-03 13:32:01,2561-04-03 13:32:02,0.986s,PASSED
+verifyTextPresent,Chrome 65.0.3325.181,,2561-04-03 13:32:02,2561-04-03 13:32:02,0.142s,PASSED
+verifyTextPresent,Chrome 65.0.3325.181,,2561-04-03 13:32:02,2561-04-03 13:32:03,0.106s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2561-04-03 13:32:03,2561-04-03 13:32:03,0.737s,PASSED
+,,,,,,
+Test Cases/Register volunteer/Register05,Chrome 65.0.3325.181,\u0E01\u0E23\u0E2D\u0E01\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E17\u0E31\u0E49\u0E07\u0E2B\u0E21\u0E14 \u0E42\u0E14\u0E22\u0E44\u0E21\u0E48\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E43\u0E0A\u0E49\u0E23\u0E39\u0E1B\u0E20\u0E32\u0E1E,2561-04-03 13:32:03,2561-04-03 13:32:57,54.026s,PASSED
+"Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString(""abcdefghijklmnopqrstuvwxty123456789"", 10)",Chrome 65.0.3325.181,,2561-04-03 13:32:03,2561-04-03 13:32:03,0.001s,PASSED
+"Statement - randomPass = CustomKeywords.generateEmail.genEmail.randomString(""abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"", 250)",Chrome 65.0.3325.181,,2561-04-03 13:32:03,2561-04-03 13:32:03,0.001s,PASSED
+"Statement - randomNameTH = CustomKeywords.generateEmail.genEmail.randomString(""°¢§¶ß®©™´∞ØƒÊ‰”æ–—’√÷¿∂ÿŸ£•∫¬≠Í√∏–±æøÀ¶°Ø¥‚¨‡ÁÈË“… »«∆ΩÃ„≤≤∑◊Ï‘ŒÕ·ªº"", 250)",Chrome 65.0.3325.181,,2561-04-03 13:32:03,2561-04-03 13:32:03,0.001s,PASSED
+"Statement - randomNameEN = CustomKeywords.generateEmail.genEmail.randomString(""abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"", 250)",Chrome 65.0.3325.181,,2561-04-03 13:32:03,2561-04-03 13:32:03,0.002s,PASSED
+Statement - randomR = CustomKeywords.random.randomReligion.randomRRR(),Chrome 65.0.3325.181,,2561-04-03 13:32:03,2561-04-03 13:32:03,0.001s,PASSED
+Statement - radomD = CustomKeywords.random.randomDegree.randomDeg(),Chrome 65.0.3325.181,,2561-04-03 13:32:03,2561-04-03 13:32:03,0.000s,PASSED
+Statement - randomJ = CustomKeywords.random.randomJobs.randomJOb(),Chrome 65.0.3325.181,,2561-04-03 13:32:03,2561-04-03 13:32:03,0.001s,PASSED
+Statement - randomS = CustomKeywords.random.randomStatus.randomSta(),Chrome 65.0.3325.181,,2561-04-03 13:32:03,2561-04-03 13:32:03,0.000s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2561-04-03 13:32:03,2561-04-03 13:32:06,2.429s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2561-04-03 13:32:06,2561-04-03 13:32:32,26.275s,PASSED
+click,Chrome 65.0.3325.181,,2561-04-03 13:32:32,2561-04-03 13:32:33,0.756s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:33,2561-04-03 13:32:33,0.230s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:33,2561-04-03 13:32:35,1.438s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:35,2561-04-03 13:32:36,1.115s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:36,2561-04-03 13:32:37,1.417s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:37,2561-04-03 13:32:39,1.419s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:39,2561-04-03 13:32:40,1.372s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:40,2561-04-03 13:32:41,1.372s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:41,2561-04-03 13:32:41,0.208s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:32:41,2561-04-03 13:32:42,0.159s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:32:42,2561-04-03 13:32:42,0.160s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:32:42,2561-04-03 13:32:42,0.176s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:42,2561-04-03 13:32:42,0.092s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:42,2561-04-03 13:32:42,0.092s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:42,2561-04-03 13:32:42,0.130s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:32:42,2561-04-03 13:32:44,2.001s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:32:44,2561-04-03 13:32:44,0.111s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:32:44,2561-04-03 13:32:46,2.000s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:32:46,2561-04-03 13:32:47,0.118s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:32:47,2561-04-03 13:32:49,2.001s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:32:49,2561-04-03 13:32:49,0.143s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:49,2561-04-03 13:32:49,0.142s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:32:49,2561-04-03 13:32:49,0.154s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:49,2561-04-03 13:32:49,0.320s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:49,2561-04-03 13:32:49,0.132s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:49,2561-04-03 13:32:50,0.140s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:32:50,2561-04-03 13:32:50,0.177s,PASSED
+click,Chrome 65.0.3325.181,,2561-04-03 13:32:50,2561-04-03 13:32:57,6.897s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2561-04-03 13:32:57,2561-04-03 13:32:57,0.708s,PASSED
+,,,,,,
+Test Cases/Register volunteer/Register06,Chrome 65.0.3325.181,,2561-04-03 13:32:57,2561-04-03 13:33:51,53.249s,PASSED
+"Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString(""abcdefghijklmnopqrstuvwxty123456789"", 10)",Chrome 65.0.3325.181,,2561-04-03 13:32:57,2561-04-03 13:32:57,0.001s,PASSED
+"Statement - randomPass = CustomKeywords.generateEmail.genEmail.randomString(""abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"", 10)",Chrome 65.0.3325.181,,2561-04-03 13:32:57,2561-04-03 13:32:57,0.000s,PASSED
+Statement - randomR = CustomKeywords.random.randomReligion.randomRRR(),Chrome 65.0.3325.181,,2561-04-03 13:32:57,2561-04-03 13:32:57,0.000s,PASSED
+Statement - radomD = CustomKeywords.random.randomDegree.randomDeg(),Chrome 65.0.3325.181,,2561-04-03 13:32:57,2561-04-03 13:32:57,0.000s,PASSED
+Statement - randomJ = CustomKeywords.random.randomJobs.randomJOb(),Chrome 65.0.3325.181,,2561-04-03 13:32:57,2561-04-03 13:32:57,0.001s,PASSED
+Statement - randomS = CustomKeywords.random.randomStatus.randomSta(),Chrome 65.0.3325.181,,2561-04-03 13:32:57,2561-04-03 13:32:57,0.000s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2561-04-03 13:32:57,2561-04-03 13:32:59,1.922s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2561-04-03 13:32:59,2561-04-03 13:33:25,25.954s,PASSED
+click,Chrome 65.0.3325.181,,2561-04-03 13:33:25,2561-04-03 13:33:31,5.781s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:33:31,2561-04-03 13:33:31,0.190s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:33:31,2561-04-03 13:33:31,0.126s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:33:31,2561-04-03 13:33:32,0.114s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:33:32,2561-04-03 13:33:32,0.084s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:33:32,2561-04-03 13:33:32,0.077s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:33:32,2561-04-03 13:33:32,0.094s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:33:32,2561-04-03 13:33:32,0.116s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:33:32,2561-04-03 13:33:32,0.189s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:33:32,2561-04-03 13:33:32,0.157s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:33:32,2561-04-03 13:33:32,0.144s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:33:32,2561-04-03 13:33:33,0.161s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:33:33,2561-04-03 13:33:33,0.138s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:33:33,2561-04-03 13:33:33,0.134s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:33:33,2561-04-03 13:33:33,0.431s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:33:33,2561-04-03 13:33:35,2.002s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:33:35,2561-04-03 13:33:35,0.119s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:33:35,2561-04-03 13:33:37,2.002s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:33:37,2561-04-03 13:33:38,0.140s,PASSED
+delay,Chrome 65.0.3325.181,,2561-04-03 13:33:38,2561-04-03 13:33:40,2.001s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:33:40,2561-04-03 13:33:40,0.145s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:33:40,2561-04-03 13:33:40,0.144s,PASSED
+selectOptionByValue,Chrome 65.0.3325.181,,2561-04-03 13:33:40,2561-04-03 13:33:40,0.165s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:33:40,2561-04-03 13:33:40,0.322s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:33:40,2561-04-03 13:33:40,0.131s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:33:40,2561-04-03 13:33:41,0.162s,PASSED
+setText,Chrome 65.0.3325.181,,2561-04-03 13:33:41,2561-04-03 13:33:41,0.146s,PASSED
+click,Chrome 65.0.3325.181,,2561-04-03 13:33:41,2561-04-03 13:33:49,8.569s,PASSED
+verifyTextPresent,Chrome 65.0.3325.181,,2561-04-03 13:33:49,2561-04-03 13:33:49,0.143s,PASSED
+verifyTextPresent,Chrome 65.0.3325.181,,2561-04-03 13:33:49,2561-04-03 13:33:50,0.155s,PASSED
+verifyTextPresent,Chrome 65.0.3325.181,,2561-04-03 13:33:50,2561-04-03 13:33:50,0.130s,PASSED
+verifyTextPresent,Chrome 65.0.3325.181,,2561-04-03 13:33:50,2561-04-03 13:33:50,0.137s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2561-04-03 13:33:50,2561-04-03 13:33:51,0.699s,PASSED
+,,,,,,
+Test Cases/Register volunteer/Register07,Chrome 65.0.3325.181,,2561-04-03 13:33:51,2561-04-03 13:33:55,4.370s,FAILED
+"Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString(""abcdefghijklmnopqrstuvwxty123456789"", 10)",Chrome 65.0.3325.181,,2561-04-03 13:33:51,2561-04-03 13:33:51,0.001s,PASSED
+"Statement - randomName = CustomKeywords.generateEmail.genEmail.randomString(""°¢§¶ß®©™´∞ØƒÊ‰”æ–—’√÷¿∂ÿŸ£•∫¬≠Í√∏–±æøÀ¶°Ø¥‚¨‡ÁÈË“… »«∆ΩÃ„≤≤∑◊Ï‘ŒÕ·ªºabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456489/*-+Â/-$%^&*()_"", 12)",Chrome 65.0.3325.181,,2561-04-03 13:33:51,2561-04-03 13:33:51,0.001s,PASSED
+Statement - randomR = CustomKeywords.random.randomReligion.randomRRR(),Chrome 65.0.3325.181,,2561-04-03 13:33:51,2561-04-03 13:33:51,0.000s,PASSED
+Statement - radomD = CustomKeywords.random.randomDegree.randomDeg(),Chrome 65.0.3325.181,,2561-04-03 13:33:51,2561-04-03 13:33:51,0.000s,PASSED
+Statement - randomJ = CustomKeywords.random.randomJobs.randomJOb(),Chrome 65.0.3325.181,,2561-04-03 13:33:51,2561-04-03 13:33:51,0.000s,PASSED
+Statement - randomS = CustomKeywords.random.randomStatus.randomSta(),Chrome 65.0.3325.181,,2561-04-03 13:33:51,2561-04-03 13:33:51,0.000s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2561-04-03 13:33:51,2561-04-03 13:33:53,2.008s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2561-04-03 13:33:53,2561-04-03 13:33:55,1.913s,PASSED
+click,Chrome 65.0.3325.181,,2561-04-03 13:33:55,2561-04-03 13:33:55,0.327s,FAILED
+,,,,,,
+Test Cases/Register volunteer/Register08,Chrome 65.0.3325.181,,2561-04-03 13:33:55,2561-04-03 13:34:02,7.203s,FAILED
+"Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString(""abcdefghijklmnopqrstuvwxty123456789"", 10)",Chrome 65.0.3325.181,,2561-04-03 13:33:55,2561-04-03 13:33:55,0.000s,PASSED
+"Statement - randomNameTH = CustomKeywords.generateEmail.genEmail.randomString(""°¢§¶ß®©™´∞ØƒÊ‰”æ–—’√÷¿∂ÿŸ£•∫¬≠Í√∏–±æøÀ¶°Ø¥‚¨‡ÁÈË“… »«∆ΩÃ„≤≤∑◊Ï‘ŒÕ·ªº"", 12)",Chrome 65.0.3325.181,,2561-04-03 13:33:55,2561-04-03 13:33:55,0.000s,PASSED
+"Statement - randomLastNameTH = CustomKeywords.generateEmail.genEmail.randomString(""°¢§¶ß®©™´∞ØƒÊ‰”æ–—’√÷¿∂ÿŸ£•∫¬≠Í√∏–±æøÀ¶°Ø¥‚¨‡ÁÈË“… »«∆ΩÃ„≤≤∑◊Ï‘ŒÕ·ªº"", 12)",Chrome 65.0.3325.181,,2561-04-03 13:33:55,2561-04-03 13:33:55,0.000s,PASSED
+Statement - randomS = CustomKeywords.random.randomStatus.randomSta(),Chrome 65.0.3325.181,,2561-04-03 13:33:55,2561-04-03 13:33:55,0.000s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2561-04-03 13:33:55,2561-04-03 13:33:58,2.586s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2561-04-03 13:33:58,2561-04-03 13:34:02,4.481s,FAILED
+,,,,,,
+Test Cases/Register volunteer/Register09,Chrome 65.0.3325.181,,2561-04-03 13:34:02,2561-04-03 13:34:05,2.594s,INCOMPLETE
+"Statement - randomString = CustomKeywords.generateEmail.genEmail.randomString(""abcdefghijklmnopqrstuvwxty123456789"", 10)",Chrome 65.0.3325.181,,2561-04-03 13:34:02,2561-04-03 13:34:02,0.000s,PASSED
+"Statement - randomNameTH = CustomKeywords.generateEmail.genEmail.randomString(""°¢§¶ß®©™´∞ØƒÊ‰”æ–—’√÷¿∂ÿŸ£•∫¬≠Í√∏–±æøÀ¶°Ø¥‚¨‡ÁÈË“… »«∆ΩÃ„≤≤∑◊Ï‘ŒÕ·ªº"", 12)",Chrome 65.0.3325.181,,2561-04-03 13:34:02,2561-04-03 13:34:02,0.000s,PASSED
+"Statement - randomLastNameTH = CustomKeywords.generateEmail.genEmail.randomString(""°¢§¶ß®©™´∞ØƒÊ‰”æ–—’√÷¿∂ÿŸ£•∫¬≠Í√∏–±æøÀ¶°Ø¥‚¨‡ÁÈË“… »«∆ΩÃ„≤≤∑◊Ï‘ŒÕ·ªº"", 12)",Chrome 65.0.3325.181,,2561-04-03 13:34:02,2561-04-03 13:34:02,0.000s,PASSED
+Statement - randomS = CustomKeywords.random.randomStatus.randomSta(),Chrome 65.0.3325.181,,2561-04-03 13:34:02,2561-04-03 13:34:02,0.000s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2561-04-03 13:34:02,2561-04-03 13:34:05,2.480s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2561-04-03 13:34:05,2561-04-03 13:34:05,0.001s,INCOMPLETE

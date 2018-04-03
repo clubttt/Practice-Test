@@ -19,11 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+def randomString = CustomKeywords.'generateEmail.genEmail.randomString'('abcdefghijklmnopqrstuvwxty123456789', 10)
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://vivblind.play2pay.me/')
 
-WebUI.setText(findTestObject('Login_Page/Page_/input_EMAIL'), 'phuwadon11@hotmail.com')
+WebUI.setText(findTestObject('Login_Page/Page_/input_EMAIL'), ('' + randomString) + '@gmail.com')
 
 WebUI.setText(findTestObject('Login_Page/Page_/input_password'), '0827975510')
 

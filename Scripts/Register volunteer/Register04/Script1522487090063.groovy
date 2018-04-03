@@ -18,6 +18,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import java.util.Random as Random
+
+def randomString = CustomKeywords.'generateEmail.genEmail.randomString'('abcdefghijklmnopqrstuvwxty123456789', 10)
+
+def randomNameTH = CustomKeywords.'generateEmail.genEmail.randomString'('กขคฆงจฉชซฐฏฤๆไำพะัีรึภถุูฃฅบยญ๊รธะฑพฟหฆกฏดโฌเ็้่าษสศวฦฝฬใฒฒทื์ิฮอแปผ', 12)
+
+def randomLastNameTH = CustomKeywords.'generateEmail.genEmail.randomString'('กขคฆงจฉชซฐฏฤๆไำพะัีรึภถุูฃฅบยญ๊รธะฑพฟหฆกฏดโฌเ็้่าษสศวฦฝฬใฒฒทื์ิฮอแปผ', 12)
+
+def randomR = CustomKeywords.'random.randomReligion.randomRRR'()
+
+def radomD = CustomKeywords.'random.randomDegree.randomDeg'()
+
+def randomJ = CustomKeywords.'random.randomJobs.randomJOb'()
+
+def randomS = CustomKeywords.'random.randomStatus.randomSta'()
 
 WebUI.openBrowser('')
 
@@ -25,7 +40,7 @@ WebUI.navigateToUrl('http://vivblind.play2pay.me/')
 
 WebUI.click(findTestObject('Register_Page/a_'))
 
-WebUI.setText(findTestObject('Register_Page/input_EMAIL (1)'), 'suphisit1@gmail.com')
+WebUI.setText(findTestObject('Register_Page/input_EMAIL (1)'), '' + randomString + '@gmail.com')
 
 WebUI.setText(findTestObject('Register_Page/input_PASSWORD'), '')
 

@@ -18,6 +18,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import java.util.Random as Random
+
+def randomString = CustomKeywords.'generateEmail.genEmail.randomString'('abcdefghijklmnopqrstuvwxty123456789', 10)
+def randomPL = CustomKeywords.'randomPass.randomPass.randomString'('abcdefghijklmnopqrstuvwxty123456789', 3)
+def randomR = CustomKeywords.'random.randomReligion.randomRRR'()
+
+def radomD = CustomKeywords.'random.randomDegree.randomDeg'()
+
+def randomJ = CustomKeywords.'random.randomJobs.randomJOb'()
+
+def randomS = CustomKeywords.'random.randomStatus.randomSta'()
 
 WebUI.openBrowser('')
 
@@ -25,11 +36,11 @@ WebUI.navigateToUrl('http://vivblind.play2pay.me/')
 
 WebUI.click(findTestObject('Register_Page/a_'))
 
-WebUI.setText(findTestObject('Register_Page/input_EMAIL (1)'), 'suphisit1@gmail.com')
+WebUI.setText(findTestObject('Register_Page/input_EMAIL (1)'), ''+ randomString+ '@gmail.com')
 
-WebUI.setText(findTestObject('Register_Page/input_PASSWORD'), '012')
+WebUI.setText(findTestObject('Register_Page/input_PASSWORD'), ''+randomPL+'')
 
-WebUI.setText(findTestObject('Register_Page/input_password_confirmation'), '012')
+WebUI.setText(findTestObject('Register_Page/input_password_confirmation'), ''+randomPL+'')
 
 WebUI.uploadFile(findTestObject('Register_Page/Upload File'), 'C:\\Users\\Administrator\\Desktop\\Test.jpg')
 
@@ -43,11 +54,11 @@ WebUI.setText(findTestObject('Register_Page/input_LAST_NAME_EN'), 'Khaika')
 
 WebUI.setText(findTestObject('Register_Page/input_BIRTH_DATE'), '13/10/1994')
 
-WebUI.selectOptionByValue(findTestObject('Register_Page/select_'), 'พุทธ', true)
+WebUI.selectOptionByValue(findTestObject('Register_Page/select_'), ('' + randomR) + '', true)
 
-WebUI.selectOptionByValue(findTestObject('Register_Page/select__1'), 'ปริญญาตรี', true)
+WebUI.selectOptionByValue(findTestObject('Register_Page/select__1'), ('' + radomD) + '', true)
 
-WebUI.selectOptionByValue(findTestObject('Register_Page/select__2'), 'อื่นๆ', true)
+WebUI.selectOptionByValue(findTestObject('Register_Page/select__2'), ('' + randomJ) + '', true)
 
 WebUI.setText(findTestObject('Register_Page/input_ADDRESS_NO'), '3')
 
@@ -69,7 +80,7 @@ WebUI.selectOptionByValue(findTestObject('Register_Page/ADDRESS_SUBDISTRICT'), '
 
 WebUI.setText(findTestObject('Register_Page/input_ADDRESS_POSTCODE'), '57130')
 
-WebUI.selectOptionByValue(findTestObject('Register_Page/select__3'), 'กำลังทำงาน', true)
+WebUI.selectOptionByValue(findTestObject('Register_Page/select__3'), ('' + randomS) + '', true)
 
 WebUI.setText(findTestObject('Register_Page/input_ADDRESS_ALL'), '3 หมู่ที่ 10 ต.โป่งผา อ.แม่สาย จ.เชียงราย')
 
